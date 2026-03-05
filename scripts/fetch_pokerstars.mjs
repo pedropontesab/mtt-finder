@@ -204,7 +204,7 @@ fs.writeFileSync(EUR_PATH, JSON.stringify(eurPayload, null, 2), "utf-8");
 
 console.log(`OK: ${items.length} tournaments written -> ${OUT_PATH}`);
 console.log(`EUR: ${eurItems.length} tournaments written -> ${EUR_PATH}`);
-}
+
 
 main().catch((e) => {
   console.error(e);
