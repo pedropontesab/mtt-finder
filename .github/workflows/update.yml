@@ -18,9 +18,29 @@ jobs:
         with:
           node-version: "20"
 
-      - run: npm ci || npm install
+      - name: Install deps
+        run: npm ci || npm install
 
-      - run: npm run update
+      - name: Run updater
+        run: npm run update
+
+      - name: Debug list files
+        run: |
+          echo "PWD:"
+          pwd
+          echo "Root files:"
+          ls -la
+          echo "Public folder:"
+          ls -la public || true
+
+      - name: Debug tournaments.json size + preview
+        run: |
+          test -f public/tournaments.json && echo "File exists" || (echo "File missing" && exit 1)
+          echo "Bytes:"
+          wc -c public/tournaments.json
+          echo "Preview:"
+          head -c 400 public/tournaments.json || true
+          echo ""
 
       - name: Commit changes
         run: |
