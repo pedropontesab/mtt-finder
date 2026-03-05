@@ -211,7 +211,28 @@ async function main() {
   };
 
   // SOMENTE IT (isso é o principal!)
-  const itItems = items.filter((t) => (t.lobby_types || []).includes("IT"));
+  const itItems = items.filter((t) => {
+  const isIT = (t.lobby_types || []).includes("IT");
+
+  const buy = String(t.buyin_raw || "").toLowerCase();
+  const name = String(t.name || "").toLowerCase();
+
+  // regras para detectar "dinheiro fictício"
+  const isPlayMoney =
+    buy.includes("play") ||
+    buy.includes("play money") ||
+    buy.includes("fict") ||
+    name.includes("play") ||
+    name.includes("play money");
+
+  // outra heurística: sem moeda e sem buy-in numérico (muitos play money vêm assim)
+  const looksLikeNoRealMoney =
+    (t.currency == null || t.currency === "") &&
+    (t.buyin == null || Number.isNaN(t.buyin)) &&
+    buy === "";
+
+  return isIT && !isPlayMoney && !looksLikeNoRealMoney;
+});
   const itPayload = {
     meta: {
       generated_at: generatedAt,
