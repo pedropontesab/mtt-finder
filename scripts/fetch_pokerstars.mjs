@@ -147,7 +147,7 @@ async function main() {
     throw new Error("Parsed 0 tournaments. Refusing to overwrite tournaments.json with empty data.");
   }
 
-  const payload = {
+    const payload = {
     meta: {
       generated_at: new Date().toISOString(),
       used_url: usedUrl,
@@ -157,10 +157,36 @@ async function main() {
     items,
   };
 
+  // garante pasta public/
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  // escreve arquivo completo
-fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
 
+  // 1) arquivo completo
+  fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
+
+  // 2) arquivo filtrado EUR
+  const eurItems = items.filter((t) => t.currency === "EUR");
+  const eurPayload = {
+    meta: {
+      generated_at: payload.meta.generated_at,
+      used_url: payload.meta.used_url,
+      final_url: payload.meta.final_url,
+      filter: "EUR",
+      count: eurItems.length,
+    },
+    items: eurItems,
+  };
+
+  const EUR_PATH = path.join("public", "tournaments_eur.json");
+  fs.writeFileSync(EUR_PATH, JSON.stringify(eurPayload, null, 2), "utf-8");
+
+  console.log(`OK: ${items.length} tournaments written -> ${OUT_PATH}`);
+  console.log(`OK: ${eurItems.length} EUR tournaments written -> ${EUR_PATH}`);
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
 // cria versão somente EUR
 const eurItems = items.filter(t => t.currency === "EUR");
 
