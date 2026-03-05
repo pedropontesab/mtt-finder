@@ -3,65 +3,50 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>MTT Finder (PokerStars)</title>
+  <title>MTT Finder – PokerStars</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 16px; max-width: 1200px; margin: 0 auto; }
-    h1 { margin: 0 0 6px; }
-    .muted { color:#666; font-size: 12px; margin-bottom: 12px; }
-    .row { display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 14px; align-items: end; }
-    label { display:flex; flex-direction:column; gap:4px; font-size: 12px; color:#333; }
-    input, select { padding: 8px; min-width: 200px; }
-    button { padding: 8px 12px; cursor:pointer; }
-    table { width:100%; border-collapse: collapse; }
-    th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align:left; vertical-align: top; }
-    th { background:#f5f5f5; position: sticky; top: 0; }
-    .pill { display:inline-block; padding:2px 8px; border:1px solid #ddd; border-radius:999px; font-size:12px; margin-right:6px; }
-    .right { margin-left:auto; }
-    .small { font-size:12px; color:#444; }
+    body{font-family:Arial,sans-serif;max-width:1200px;margin:0 auto;padding:20px}
+    h1{margin:0 0 6px}
+    .meta{font-size:12px;color:#666;margin-bottom:16px}
+    .error{background:#fff3f3;border:1px solid #ffb3b3;padding:12px;border-radius:8px;color:#7a0000;margin:12px 0;white-space:pre-wrap}
+    .filters{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 14px;align-items:end}
+    label{display:flex;flex-direction:column;gap:4px;font-size:12px}
+    input,select,button{padding:8px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}
+    th{background:#f5f5f5;position:sticky;top:0}
+    .tag{font-size:11px;border:1px solid #ccc;padding:2px 6px;border-radius:999px;margin-right:6px;display:inline-block}
   </style>
 </head>
 <body>
-  <h1>MTT Finder (PokerStars)</h1>
-  <div class="muted" id="meta">Carregando…</div>
+  <h1>MTT Finder</h1>
+  <div class="meta" id="meta">Carregando…</div>
+  <div id="err" class="error" style="display:none"></div>
 
-  <div class="row">
-    <label>
-      Busca no nome
-      <input id="q" placeholder="ex: KO, Sunday, Bounty, Satellite…" />
+  <div class="filters">
+    <label>Busca
+      <input id="search" placeholder="KO, Sunday, Bounty, Satellite…"/>
     </label>
 
-    <label>
-      Buy-in min
-      <input id="min" type="number" step="0.01" placeholder="0" />
+    <label>Buy-in min
+      <input id="minBuyin" type="number" step="0.01" placeholder="0"/>
     </label>
 
-    <label>
-      Buy-in max
-      <input id="max" type="number" step="0.01" placeholder="ex: 20" />
+    <label>Buy-in max
+      <input id="maxBuyin" type="number" step="0.01" placeholder="ex: 20"/>
     </label>
 
-    <label>
-      Próximas…
-      <select id="window">
+    <label>Próximas…
+      <select id="hours">
         <option value="0">Qualquer horário</option>
-        <option value="2">2 horas</option>
-        <option value="6">6 horas</option>
-        <option value="12">12 horas</option>
-        <option value="24">24 horas</option>
+        <option value="2">2h</option>
+        <option value="6">6h</option>
+        <option value="12">12h</option>
+        <option value="24">24h</option>
       </select>
     </label>
 
-    <label>
-      Moeda
-      <select id="currency">
-        <option value="">Todas</option>
-        <option value="EUR">Somente EUR</option>
-        <option value="USD">Somente USD</option>
-      </select>
-    </label>
-
-    <label>
-      Tipo
+    <label>Tipo
       <select id="type">
         <option value="">Todos</option>
         <option value="KO">KO / Bounty</option>
@@ -70,14 +55,15 @@
       </select>
     </label>
 
-    <button id="btn">Aplicar</button>
-    <span class="right small" id="count"></span>
+    <button id="applyBtn">Aplicar</button>
+    <span id="count" style="margin-left:auto;font-size:12px;color:#444"></span>
   </div>
 
   <table>
     <thead>
       <tr>
         <th>Start (Roma)</th>
+        <th>Countdown</th>
         <th>Nome</th>
         <th>Game</th>
         <th>Buy-in</th>
@@ -91,102 +77,125 @@
 let ALL = [];
 let META = {};
 
-function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;" }[c])); }
+function showError(msg){
+  const el = document.getElementById("err");
+  el.style.display = "block";
+  el.textContent = msg;
+}
 
-function tagsFromName(name) {
-  const n = String(name || "").toLowerCase();
+function toRomeTime(dateStr){
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return String(dateStr);
+  return new Intl.DateTimeFormat("it-IT",{
+    timeZone:"Europe/Rome",
+    year:"numeric",month:"2-digit",day:"2-digit",
+    hour:"2-digit",minute:"2-digit"
+  }).format(d);
+}
+
+function countdown(dateStr){
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return "";
+  const diff = d - new Date();
+  if (diff < 0) return "started";
+  const min = Math.floor(diff/60000);
+  const h = Math.floor(min/60);
+  const m = min % 60;
+  return `${h}h ${m}m`;
+}
+
+function tagsFromName(name){
+  const n = String(name||"").toLowerCase();
   const tags = [];
-  if (n.includes("ko") || n.includes("bounty") || n.includes("progressive")) tags.push("KO");
-  if (n.includes("satellite") || n.includes("sat")) tags.push("SAT");
+  if (n.includes("bounty") || n.includes(" ko") || n.includes("ko ")) tags.push("KO");
+  if (n.includes("satellite") || n.includes(" sat")) tags.push("SAT");
   if (n.includes("turbo") || n.includes("hyper")) tags.push("TURBO");
   if (n.includes("freeroll")) tags.push("FREEROLL");
   return tags;
 }
 
-function toRomeTime(dateStr) {
-  // Se vier ISO, funciona bem. Se vier outro formato, mostramos como está.
-  const d = new Date(dateStr);
-  if (isNaN(d.getTime())) return dateStr;
-
-  return new Intl.DateTimeFormat("it-IT", {
-    timeZone: "Europe/Rome",
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", minute: "2-digit"
-  }).format(d);
-}
-
-function withinHours(dateStr, hours) {
+function withinHours(dateStr, hours){
   if (!hours || hours <= 0) return true;
   const d = new Date(dateStr);
-  if (isNaN(d.getTime())) return true; // se não parseia, não filtra por janela
-  const now = new Date();
-  const diffMs = d - now;
-  return diffMs >= 0 && diffMs <= hours * 60 * 60 * 1000;
+  if (isNaN(d.getTime())) return true;
+  const diff = d - new Date();
+  return diff >= 0 && diff <= hours * 3600000;
 }
 
-async function load() {
-const res = await fetch("./public/tournaments_eur.json", { cache: "no-store" });  const data = await res.json();
-  META = data.meta || {};
-  ALL = data.items || data || [];
-
-  const src = META.final_url || META.used_url || "desconhecida";
-  document.getElementById("meta").textContent =
-    `Atualizado: ${META.generated_at || "?"} | Fonte: ${src} | Itens: ${META.count ?? ALL.length}`;
-
-  apply();
-}
-
-function apply() {
-  const q = document.getElementById("q").value.trim().toLowerCase();
-  const min = Number(document.getElementById("min").value || 0);
-  const maxRaw = document.getElementById("max").value;
+function applyFilters(){
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const min = Number(document.getElementById("minBuyin").value || 0);
+  const maxRaw = document.getElementById("maxBuyin").value;
   const max = maxRaw ? Number(maxRaw) : null;
-  const windowH = Number(document.getElementById("window").value || 0);
-  const currency = document.getElementById("currency").value;
+  const hours = Number(document.getElementById("hours").value || 0);
   const type = document.getElementById("type").value;
 
-  const filtered = ALL.filter(t => {
+  const filtered = ALL.filter(t=>{
     const name = String(t.name || "");
     const nameL = name.toLowerCase();
 
     if (q && !nameL.includes(q)) return false;
 
-    // buyin
     const b = (t.buyin ?? null);
     if (b !== null && b < min) return false;
     if (max !== null && b !== null && b > max) return false;
 
-    // janela
-    if (!withinHours(t.start_date, windowH)) return false;
+    if (!withinHours(t.start_date, hours)) return false;
 
-    // moeda
-    if (currency && String(t.currency || "") !== currency) return false;
-
-    // tipo
     const tags = tagsFromName(name);
     if (type && !tags.includes(type)) return false;
 
     return true;
   });
 
+  filtered.sort((a,b)=> new Date(a.start_date) - new Date(b.start_date));
+
   document.getElementById("count").textContent = `Mostrando ${Math.min(filtered.length, 500)} de ${filtered.length}`;
 
   const tbody = document.getElementById("tbody");
-  tbody.innerHTML = filtered.slice(0, 500).map(t => {
-    const tags = tagsFromName(t.name).map(x => `<span class="pill">${esc(x)}</span>`).join("");
+  tbody.innerHTML = filtered.slice(0,500).map(t=>{
+    const tags = tagsFromName(t.name).map(x=>`<span class="tag">${x}</span>`).join("");
     return `
       <tr>
-        <td>${esc(toRomeTime(t.start_date))}</td>
-        <td>${esc(t.name)}</td>
-        <td>${esc(t.game || "")}</td>
-        <td>${esc(t.buyin_raw || "")}</td>
+        <td>${toRomeTime(t.start_date)}</td>
+        <td>${countdown(t.start_date)}</td>
+        <td>${t.name ?? ""}</td>
+        <td>${t.game ?? ""}</td>
+        <td>${t.buyin_raw ?? ""}</td>
         <td>${tags}</td>
       </tr>
     `;
   }).join("");
 }
 
-document.getElementById("btn").addEventListener("click", apply);
+async function load(){
+  try{
+    // resolve corretamente mesmo em /mtt-finder/ no Pages
+    const url = new URL("public/tournaments_eur.json", window.location.href).toString();
+
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} ao buscar ${url}`);
+
+    const data = await res.json();
+
+    META = data.meta || {};
+    ALL = data.items || [];
+
+    document.getElementById("meta").textContent =
+      `Atualizado: ${META.generated_at || "?"} | Fonte: ${(META.final_url || META.used_url || "?")} | EUR itens: ${META.count ?? ALL.length}`;
+
+    if (!ALL.length) {
+      showError("Carregou o JSON, mas veio sem itens (items.length = 0). Veja se o workflow está gerando torneios em EUR.");
+    }
+
+    applyFilters();
+  } catch(e){
+    showError("Erro ao carregar dados:\n" + (e?.stack || e?.message || String(e)));
+    document.getElementById("meta").textContent = "Falha ao carregar.";
+  }
+}
+
+document.getElementById("applyBtn").addEventListener("click", applyFilters);
 load();
 </script>
 </body>
