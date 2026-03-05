@@ -18,11 +18,46 @@
     th{background:#f5f5f5;position:sticky;top:0}
     .tag{font-size:11px;border:1px solid #ccc;padding:2px 6px;border-radius:999px;margin-right:6px;display:inline-block}
     .small{font-size:12px;color:#444;margin-left:auto}
+    .quick{
+margin:10px 0;
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.quick button{
+background:#222;
+color:white;
+border:none;
+padding:6px 10px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.quick button:hover{
+background:#444;
+}
   </style>
 </head>
 <body>
   <h1>MTT Finder – PokerStars (Lobby IT)</h1>
-  <div class="meta" id="meta">Carregando…</div>
+  <div class="meta" id="meta"><div class="quick">
+
+<button onclick="quickFilter('pko')">PKO</button>
+
+<button onclick="quickFilter('sat')">SAT</button>
+
+<button onclick="quickFilter('low')">LOW (€1-10)</button>
+
+<button onclick="quickFilter('mid')">MID (€10-50)</button>
+
+<button onclick="quickFilter('high')">HIGH (€50+)</button>
+
+<button onclick="quickFilter('today')">TODAY</button>
+
+<button onclick="resetFilters()">RESET</button>
+
+</div></div>
   <div class="error" id="err"></div>
 
   <div class="filters">
@@ -194,6 +229,49 @@ async function load(){
 
 document.getElementById("applyBtn").addEventListener("click", applyFilters);
 load();
+function quickFilter(type){
+
+if(type==="pko"){
+document.getElementById("search").value="bounty"
+}
+
+if(type==="sat"){
+document.getElementById("search").value="sat"
+}
+
+if(type==="low"){
+document.getElementById("minBuyin").value=1
+document.getElementById("maxBuyin").value=10
+}
+
+if(type==="mid"){
+document.getElementById("minBuyin").value=10
+document.getElementById("maxBuyin").value=50
+}
+
+if(type==="high"){
+document.getElementById("minBuyin").value=50
+document.getElementById("maxBuyin").value=""
+}
+
+if(type==="today"){
+document.getElementById("hours").value=24
+}
+
+applyFilters()
+}
+
+function resetFilters(){
+
+document.getElementById("search").value=""
+document.getElementById("minBuyin").value=""
+document.getElementById("maxBuyin").value=""
+document.getElementById("hours").value=0
+document.getElementById("type").value=""
+
+applyFilters()
+
+}
 </script>
 </body>
 </html>
