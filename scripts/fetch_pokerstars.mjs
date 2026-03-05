@@ -25,7 +25,6 @@ async function fetchText(url) {
   });
   const text = await res.text();
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
-
   return { text, finalUrl: res.url };
 }
 
@@ -46,7 +45,6 @@ function parseMoney(raw) {
   return { raw: s, buyin: Number.isFinite(buyin) ? buyin : null, fee, currency };
 }
 
-// Busca profunda: acha qualquer array/obj que tenha chave "tournament"
 function findTournamentListDeep(obj) {
   const stack = [obj];
   while (stack.length) {
@@ -130,8 +128,7 @@ async function main() {
   const items = extractTournaments(xmlText);
 
   if (items.length === 0) {
-    // não sobrescreve com []
-    throw new Error("Parsed 0 tournaments. Feed structure likely changed or response is not tournaments XML.");
+    throw new Error("Parsed 0 tournaments. Refusing to overwrite tournaments.json with empty data.");
   }
 
   const payload = {
@@ -147,7 +144,7 @@ async function main() {
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
 
-  console.log(`OK: ${items.length} tournaments written.`);
+  console.log(`OK: ${items.length} tournaments written -> ${OUT_PATH}`);
 }
 
 main().catch((e) => {
