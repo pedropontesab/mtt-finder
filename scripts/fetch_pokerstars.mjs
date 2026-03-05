@@ -5,12 +5,9 @@ import { XMLParser } from "fast-xml-parser";
 
 const OUT_PATH = path.join("public", "tournaments.json");
 const IT_PATH = path.join("public", "tournaments_it.json");
-const EUR_PATH = path.join("public", "tournaments_eur.json"); // opcional
 
 const UA = "mtt-finder/0.1 (public-data; github-actions)";
 
-// .it costuma falhar/404, mas tentamos primeiro mesmo assim.
-// Depois cai no .com (que redireciona p/ .bet e funciona).
 const URLS = [
   "https://www.pokerstars.it/datafeed_global/tournaments/all.xml",
   "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
@@ -31,9 +28,7 @@ async function fetchText(url) {
 
   const text = await res.text();
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
-  }
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
 
   return { text, finalUrl: res.url };
 }
@@ -52,15 +47,9 @@ function parseMoney(raw) {
   const buyin = a ? Number(a.replace(",", ".")) : null;
   const fee = b ? Number(b.replace(",", ".")) : 0;
 
-  return {
-    raw: s,
-    buyin: Number.isFinite(buyin) ? buyin : null,
-    fee: Number.isFinite(fee) ? fee : null,
-    currency,
-  };
+  return { raw: s, buyin: Number.isFinite(buyin) ? buyin : null, fee, currency };
 }
 
-// Debug: lobbies presentes no XML (você já viu IT aqui)
 function collectLobbyTypesDeep(obj) {
   const types = new Set();
   const stack = [obj];
@@ -82,7 +71,6 @@ function collectLobbyTypesDeep(obj) {
       if (v && typeof v === "object") stack.push(v);
     }
   }
-
   return [...types].sort();
 }
 
@@ -116,7 +104,8 @@ function extractTournaments(xmlText) {
   const lobbyTypes = collectLobbyTypesDeep(parsed);
   console.log("LOBBY_TYPES:", lobbyTypes.length ? lobbyTypes.join(", ") : "(none)");
 
-  let candidates =
+  // tenta achar lista de torneios
+  const candidates =
     parsed?.selected_tournaments?.tournament ??
     parsed?.tournaments?.tournament ??
     parsed?.tournament ??
@@ -125,13 +114,41 @@ function extractTournaments(xmlText) {
 
   const list = Array.isArray(candidates) ? candidates : [candidates];
 
+  // --- DEBUG: entender lobby dentro do torneio ---
+  const total = list.length;
+  const withLobbyField = list.filter((t) => t && t.lobby).length;
+
+  const withIT = list.filter((t) => {
+    if (!t?.lobby) return false;
+    const arr = Array.isArray(t.lobby) ? t.lobby : [t.lobby];
+    return arr.some((x) => String(x?.["@_type"] ?? x?.type ?? "") === "IT");
+  }).length;
+
+  console.log("DEBUG_TOURNAMENTS_TOTAL:", total);
+  console.log("DEBUG_TOURNAMENTS_WITH_LOBBY_FIELD:", withLobbyField);
+  console.log("DEBUG_TOURNAMENTS_WITH_IT_IN_LOBBY_FIELD:", withIT);
+
+  if (list[0]) {
+    console.log("DEBUG_FIRST_TOURNAMENT_KEYS:", Object.keys(list[0]).slice(0, 40).join(", "));
+    console.log("DEBUG_FIRST_TOURNAMENT_HAS_LOBBY:", !!list[0].lobby);
+  }
+
+  const exampleWithLobby = list.find((t) => t && t.lobby);
+  if (exampleWithLobby) {
+    console.log("DEBUG_EXAMPLE_WITH_LOBBY_KEYS:", Object.keys(exampleWithLobby).slice(0, 40).join(", "));
+    console.log(
+      "DEBUG_EXAMPLE_WITH_LOBBY_LOBBY_FIELD:",
+      JSON.stringify(exampleWithLobby.lobby).slice(0, 500)
+    );
+  }
+
+  // montar items
   const items = [];
   for (const t of list) {
     const start = t?.start_date;
     const name = t?.name;
     if (!start || !name) continue;
 
-    // lobby types do torneio
     const lobbyTypesForT = new Set();
     if (t?.lobby) {
       const l = Array.isArray(t.lobby) ? t.lobby : [t.lobby];
@@ -154,7 +171,6 @@ function extractTournaments(xmlText) {
       fee: money.fee,
       currency: money.currency,
       lobby_types: [...lobbyTypesForT],
-      players: t?.["@_players"] ? Number(t["@_players"]) : (t?.players ? Number(t.players) : null),
     });
   }
 
@@ -187,45 +203,14 @@ async function main() {
     }
   }
 
-  if (!xmlText) {
-    throw new Error(`Failed to fetch any feed. Last error: ${lastErr?.message}`);
-  }
+  if (!xmlText) throw new Error(`Failed to fetch any feed. Last error: ${lastErr?.message}`);
 
   const items = extractTournaments(xmlText);
-const list = Array.isArray(candidates) ? candidates : [candidates];
-// --- DEBUG: entender onde/como o lobby está ligado aos torneios ---
-const total = list.length;
-const withLobbyField = list.filter(t => t && t.lobby).length;
-
-const withIT = list.filter(t => {
-  if (!t?.lobby) return false;
-  const arr = Array.isArray(t.lobby) ? t.lobby : [t.lobby];
-  return arr.some(x => String(x?.["@_type"] ?? x?.type ?? "") === "IT");
-}).length;
-
-console.log("DEBUG_TOURNAMENTS_TOTAL:", total);
-console.log("DEBUG_TOURNAMENTS_WITH_LOBBY_FIELD:", withLobbyField);
-console.log("DEBUG_TOURNAMENTS_WITH_IT_IN_LOBBY_FIELD:", withIT);
-
-// mostra exemplo do 1º torneio (keys) e se tem lobby
-if (list[0]) {
-  console.log("DEBUG_FIRST_TOURNAMENT_KEYS:", Object.keys(list[0]).slice(0, 40).join(", "));
-  console.log("DEBUG_FIRST_TOURNAMENT_HAS_LOBBY:", !!list[0].lobby);
-}
-
-// mostra 1 exemplo que tem lobby (se existir)
-const exampleWithLobby = list.find(t => t && t.lobby);
-if (exampleWithLobby) {
-  console.log("DEBUG_EXAMPLE_WITH_LOBBY_KEYS:", Object.keys(exampleWithLobby).slice(0, 40).join(", "));
-  console.log("DEBUG_EXAMPLE_WITH_LOBBY_LOBBY_FIELD:", JSON.stringify(exampleWithLobby.lobby).slice(0, 500));
-}
-  if (items.length === 0) {
-    throw new Error("Parsed 0 tournaments. Refusing to overwrite JSON with empty data.");
-  }
+  if (items.length === 0) throw new Error("Parsed 0 tournaments. Refusing to overwrite JSON.");
 
   const generatedAt = new Date().toISOString();
 
-  // arquivo geral (opcional, mas bom p/ debug)
+  // geral
   const payload = {
     meta: {
       generated_at: generatedAt,
@@ -236,58 +221,26 @@ if (exampleWithLobby) {
     items,
   };
 
-  // SOMENTE IT (isso é o principal!)
-  const itItems = items.filter((t) => {
-  const isIT = (t.lobby_types || []).includes("IT");
+  // IT (provisório: vamos consertar depois do debug)
+  const itItems = items.filter((t) => (t.lobby_types || []).includes("IT"));
 
-  const buy = String(t.buyin_raw || "").toLowerCase();
-  const name = String(t.name || "").toLowerCase();
-
-  // Só considera "play money" quando estiver explícito (sem pegar "players")
-  const isPlayMoney =
-    buy.includes("play money") ||
-    buy.includes("play chips") ||
-    name.includes("play money") ||
-    name.includes("play chips");
-
-  // Outra heurística leve: se vier claramente "play" como palavra isolada
-  // (ex: "Play Money Tournament"). Evita pegar "players".
-  const hasPlayWord = /\bplay\b/.test(name) || /\bplay\b/.test(buy);
-
-  return isIT && !(isPlayMoney || hasPlayWord);
-});
   const itPayload = {
     meta: {
       generated_at: generatedAt,
       used_url: usedUrl,
       final_url: finalUrl,
-      filter: "LOBBY=IT",
+      filter: "LOBBY=IT (current method)",
       count: itItems.length,
     },
     items: itItems,
   };
 
-  // Opcional: EUR (mantive pra você, mas o site pode usar só IT)
-  const eurItems = items.filter((t) => t.currency === "EUR" || String(t.buyin_raw || "").includes("€"));
-  const eurPayload = {
-    meta: {
-      generated_at: generatedAt,
-      used_url: usedUrl,
-      final_url: finalUrl,
-      filter: "EUR",
-      count: eurItems.length,
-    },
-    items: eurItems,
-  };
-
   fs.mkdirSync("public", { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   fs.writeFileSync(IT_PATH, JSON.stringify(itPayload, null, 2), "utf-8");
-  fs.writeFileSync(EUR_PATH, JSON.stringify(eurPayload, null, 2), "utf-8");
 
   console.log(`OK: ${items.length} tournaments -> ${OUT_PATH}`);
   console.log(`OK: ${itItems.length} IT tournaments -> ${IT_PATH}`);
-  console.log(`OK: ${eurItems.length} EUR tournaments -> ${EUR_PATH}`);
 }
 
 main().catch((e) => {
