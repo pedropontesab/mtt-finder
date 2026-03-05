@@ -1,473 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T18:29:45.712Z",
+    "generated_at": "2026-03-05T18:50:47.701Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "count": 200
   },
   "items": [
-    {
-      "id": "b554a1a958c8b9b5ff8706f710036e5151676f1f",
-      "start_date": "2026-03-05T13:18:00+00:00",
-      "name": "8-Game",
-      "game": "8-Game",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "players": 4
-    },
-    {
-      "id": "70a77994ad12f372f15242a18ca94c258b84b31c",
-      "start_date": "2026-03-05T13:19:00+00:00",
-      "name": "Hot $55 Sat: $5.50 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "players": 0
-    },
-    {
-      "id": "8e7cc6dd69be844e7ba488ac83ac0b7cd8c0f013",
-      "start_date": "2026-03-05T13:20:00+00:00",
-      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€50 + €5",
-      "buyin": 50,
-      "fee": 5,
-      "currency": "EUR",
-      "players": 2
-    },
-    {
-      "id": "bdf155154a654cbd29c00147c14dd46c6d1d6238",
-      "start_date": "2026-03-05T13:20:00+00:00",
-      "name": "SCOOP 29-H [The Copacabana Unlimited] Deadline Sat: $22 NLHE [8-Max],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$20 + $2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "USD",
-      "players": 8
-    },
-    {
-      "id": "bb1a3566bac8bcd399ea1cf7d5fc2ac52c2e3eb2",
-      "start_date": "2026-03-05T13:21:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "players": 10
-    },
-    {
-      "id": "d425f881e50ea2b79efd061fcfe000ceae48ba4e",
-      "start_date": "2026-03-05T13:22:00+00:00",
-      "name": "Limit Razz",
-      "game": "Razz",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "players": 4
-    },
-    {
-      "id": "0cf052fe9fe2a3746a43faa5a5c91067f1b5b0db",
-      "start_date": "2026-03-05T13:22:00+00:00",
-      "name": "SCOOP 40-M [Sunday Million] Sat: $0.11 NLHE [Hyper-Turbo, Freebuy],  50 Seats Gtd to $1.10 Sat",
-      "game": "Hold'em",
-      "buyin_raw": "$0 + $0",
-      "buyin": 0,
-      "fee": 0,
-      "currency": "USD",
-      "players": 400
-    },
-    {
-      "id": "432be71becc9a0c6c54868515252702f0d2a8ade",
-      "start_date": "2026-03-05T13:23:00+00:00",
-      "name": "$3.30 6-Card PLO [6-Max], $200 Gtd",
-      "game": "",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "players": 8
-    },
-    {
-      "id": "660ae1615b7b17c06933664ece2a08024163ed3b",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "BSOP São Paulo Sat: $22 NLHE [Turbo, Deep],  2 Seats Gtd to $215 MEGA Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "$20 + $2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "USD",
-      "players": 1
-    },
-    {
-      "id": "8781f639b2013c349b1e381c4005144e252166dc",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "BSOP São Paulo Sat: $2.20 NLHE [Turbo, Deep],  1 Seat Gtd to $22 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "$1.96 + $0.24",
-      "buyin": 1.96,
-      "fee": 0.24,
-      "currency": "USD",
-      "players": 1
-    },
-    {
-      "id": "2d2bb91d8c11ca20479524a09efb8c884f02ae72",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "Irish Open Main Event Sat: €1.10 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd to €11 Sat",
-      "game": "Hold'em",
-      "buyin_raw": "€0.98 + €0.12",
-      "buyin": 0.98,
-      "fee": 0.12,
-      "currency": "EUR",
-      "players": 3
-    },
-    {
-      "id": "2209a0b9c4c828f55de03d8198eb7159a7ac995b",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "PokerStars Open Monte-Carlo Main Event Sat: €16.50 NLHE [Turbo, Deep],  2 Seats Gtd to €162 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€14.70 + €1.80",
-      "buyin": 14.7,
-      "fee": 1.8,
-      "currency": "EUR",
-      "players": 1
-    },
-    {
-      "id": "a2652794de7bfbaf9ad38e2d60df25ab109728de",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "SCOOP Side Event Last Chance Sat: $2.20 NLHE [6-Max],  8 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$2.01 + $0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "USD",
-      "players": 13
-    },
-    {
-      "id": "d75cd8adb3fe51fadfb0259e3b6784db4be5d1a9",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "SCOOP Side Event Last Chance Sat: $11 NLHE,  10 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$10.27 + $0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "USD",
-      "players": 11
-    },
-    {
-      "id": "cba1fa6e42655f6768edad21384d7fbcad40d44e",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "Luckbox 1M [Turbo, Mystery Bounty],  100M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "players": 22
-    },
-    {
-      "id": "09a1051019ba74b21475553008d6f88cb7911e52",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "Hot 25M,  1B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "22000000 + 3000000",
-      "buyin": 22000000,
-      "fee": 3000000,
-      "currency": null,
-      "players": 0
-    },
-    {
-      "id": "25abfce65f37b719ea538e84a3831ff04e7713d6",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "SCOOP 27-H [Thursday Thrill High Roller] Sat: $215 NLHE [8-Max] [Hyper-Turbo, Deep],  1 Seat Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$204.76 + $10.24",
-      "buyin": 204.76,
-      "fee": 10.24,
-      "currency": "USD",
-      "players": 2
-    },
-    {
-      "id": "b4ce39b2cb1e5f4d494be832b8b360fafae2db92",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "Hot Hyper KOmania $44 NLO8 [6-Max, Hyper-Turbo, Progressive KO],  $1K Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$41.90 + $2.10",
-      "buyin": 41.9,
-      "fee": 2.1,
-      "currency": "USD",
-      "players": 12
-    },
-    {
-      "id": "76adb3c533ea2a1d2d1a0fa457137c22ca72f09c",
-      "start_date": "2026-03-05T13:25:00+00:00",
-      "name": "$7.50 NLHE [6-Max, Hyper-Turbo, Progressive KO], $750 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$6.95 + $0.55",
-      "buyin": 6.95,
-      "fee": 0.55,
-      "currency": "USD",
-      "players": 17
-    },
-    {
-      "id": "c99a3622838d642fd0dcf03614694d9532992b40",
-      "start_date": "2026-03-05T13:29:00+00:00",
-      "name": "Limit Stud Hi/Lo",
-      "game": "Stud",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "players": 4
-    },
-    {
-      "id": "e9f770ff090c5d1eb4139a9cec910b41566cb6ae",
-      "start_date": "2026-03-05T13:29:00+00:00",
-      "name": "PLO Thursday Thrill Deadline Sat: $22 PLO [6-Max],  2 Seats Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$20 + $2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "USD",
-      "players": 1
-    },
-    {
-      "id": "9333d456ee3df1e84ce33d1477375172ad9d624a",
-      "start_date": "2026-03-05T13:29:00+00:00",
-      "name": "SCOOP 26-H [Big Mystery] Sat: $22 NLHE [7-Max] [Hyper-Turbo, Deep],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$20.95 + $1.05",
-      "buyin": 20.95,
-      "fee": 1.05,
-      "currency": "USD",
-      "players": 5
-    },
-    {
-      "id": "045837ad78b5acbb961b5e4bc52554ac40e0d319",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "SCOOP 28-L: $11 Stud Hi/Lo [6-Max], $5K Gtd",
-      "game": "Stud",
-      "buyin_raw": "$9.80 + $1.20",
-      "buyin": 9.8,
-      "fee": 1.2,
-      "currency": "USD",
-      "players": 129
-    },
-    {
-      "id": "e16a8bab7620dbf917443a2d7031457f3ae0ea3e",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "SCOOP 28-M: $109 Stud Hi/Lo [6-Max], $10K Gtd",
-      "game": "Stud",
-      "buyin_raw": "$100 + $9",
-      "buyin": 100,
-      "fee": 9,
-      "currency": "USD",
-      "players": 33
-    },
-    {
-      "id": "bec518d145225d1e5632d4e24e1180745ea523ce",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "SCOOP 28-H: $1,050 Stud Hi/Lo [6-Max], $40K Gtd",
-      "game": "Stud",
-      "buyin_raw": "$1000 + $50",
-      "buyin": 1000,
-      "fee": 50,
-      "currency": "USD",
-      "players": 13
-    },
-    {
-      "id": "454bdaa96723d86aeb75185f8bb58c159c84cff2",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "Irish Open Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd to €22 Sat",
-      "game": "Hold'em",
-      "buyin_raw": "€2.01 + €0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "EUR",
-      "players": 5
-    },
-    {
-      "id": "a463102bd5e92199ede0638893aab6e59c53be57",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "Destructor 10M [Total Progressive KO],  1B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "8800000 + 1200000",
-      "buyin": 8800000,
-      "fee": 1200000,
-      "currency": null,
-      "players": 2
-    },
-    {
-      "id": "7698daa22413a831eeed791b80957360b8192ef8",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "$4.40 Micro Thursday Thrill [Progressive KO],  $5K Gtd | New Tournament!",
-      "game": "Hold'em",
-      "buyin_raw": "$3.92 + $0.48",
-      "buyin": 3.92,
-      "fee": 0.48,
-      "currency": "USD",
-      "players": 164
-    },
-    {
-      "id": "5c2e65cee94262d5342ec27b7be880d6d158d6b7",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "Power Path Step 3: $11 NLHE [Turbo],  35 Seats Gtd to $55 Step 4",
-      "game": "Hold'em",
-      "buyin_raw": "$10.27 + $0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "USD",
-      "players": 30
-    },
-    {
-      "id": "61ef043a3ecea3a991449ce112aad261f20213cb",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "Bounty Builder $2.20,  $2K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1.96 + $0.24",
-      "buyin": 1.96,
-      "fee": 0.24,
-      "currency": "USD",
-      "players": 133
-    },
-    {
-      "id": "d92ba4c2d16e81693f9a6d7b97b5e7407cd888d3",
-      "start_date": "2026-03-05T13:30:00+00:00",
-      "name": "Bounty Builder $16.50,  $10K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$14.70 + $1.80",
-      "buyin": 14.7,
-      "fee": 1.8,
-      "currency": "USD",
-      "players": 124
-    },
-    {
-      "id": "d6065da09f5a5675df069f1b43941359af56d193",
-      "start_date": "2026-03-05T13:31:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "44000 + 6000",
-      "buyin": 44000,
-      "fee": 6000,
-      "currency": null,
-      "players": 3
-    },
-    {
-      "id": "d8e4eaa1689535b5a910d89cdfcbe4a992836848",
-      "start_date": "2026-03-05T13:31:00+00:00",
-      "name": "SCOOP 27-L [Mini Thursday Thrill] Sat: $3.30 NLHE [8-Max] [Hyper-Turbo, Deep],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$3.02 + $0.28",
-      "buyin": 3.02,
-      "fee": 0.28,
-      "currency": "USD",
-      "players": 11
-    },
-    {
-      "id": "86d3c9faadac3e486152fdb76c71380f7651c40e",
-      "start_date": "2026-03-05T13:33:00+00:00",
-      "name": "$3.30 FL Badugi, $100 Gtd",
-      "game": "Badugi",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "players": 1
-    },
-    {
-      "id": "b4433207a1f246e2336b79bc021b3978e49263f0",
-      "start_date": "2026-03-05T13:34:00+00:00",
-      "name": "Pot Limit Omaha",
-      "game": "Omaha",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "players": 0
-    },
-    {
-      "id": "745338c0d78d0d0e5735032bb4917b5f368fae5b",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "Pot Limit 5 Card Omaha",
-      "game": "5 Card Omaha",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "players": 1
-    },
-    {
-      "id": "616759c921dc5f200338b88da92889ce9c1ee39b",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "SCOOP 27-M [Thursday Thrill] Sat: $55 NLHE [8-Max] [Turbo, Deep],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$50 + $5",
-      "buyin": 50,
-      "fee": 5,
-      "currency": "USD",
-      "players": 5
-    },
-    {
-      "id": "5914dd4cffc61779cd8cf9e2a8391c62eb05108c",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "Hot Hyper $5.50,  $1K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "players": 20
-    },
-    {
-      "id": "74cc60f06cff67925c357cfc34f642014e0e5a0e",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "Hot Hyper $22,  $3K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$20.95 + $1.05",
-      "buyin": 20.95,
-      "fee": 1.05,
-      "currency": "USD",
-      "players": 10
-    },
-    {
-      "id": "59added147e08b49682548e1ca8eeae0bd2c39af",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "SCOOP Edition: Fenomeno Sat: $11 NLHE [Turbo, Deep],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$9.80 + $1.20",
-      "buyin": 9.8,
-      "fee": 1.2,
-      "currency": "USD",
-      "players": 3
-    },
-    {
-      "id": "08bd29714090a689d898f641a28b40b18ac720fa",
-      "start_date": "2026-03-05T13:35:00+00:00",
-      "name": "SCOOP 30-H [Daily Cooldown] Sat: $109 NLHE [7-Max] [Hyper-Turbo, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$103.81 + $5.19",
-      "buyin": 103.81,
-      "fee": 5.19,
-      "currency": "USD",
-      "players": 0
-    },
-    {
-      "id": "6eb3ac7c14ade7e1115c804f687228a707c2fa06",
-      "start_date": "2026-03-05T13:36:00+00:00",
-      "name": "Hot Hyper $27 Sat: $2.20 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$2.01 + $0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "USD",
-      "players": 1
-    },
     {
       "id": "fc1cb2a2b37e3dba4857e84014c1426f9a5ab20b",
       "start_date": "2026-03-05T13:39:00+00:00",
@@ -477,7 +15,7 @@
       "buyin": 2.94,
       "fee": 0.36,
       "currency": "USD",
-      "players": 5
+      "players": 13
     },
     {
       "id": "4a94ba40211959b144561384c3450effdf79118b",
@@ -488,7 +26,7 @@
       "buyin": 0.5,
       "fee": 0.05,
       "currency": "USD",
-      "players": 5
+      "players": 12
     },
     {
       "id": "cd5873798f7dcfc4c52acd3bd6dd7ce927f70345",
@@ -499,7 +37,7 @@
       "buyin": 220000,
       "fee": 30000,
       "currency": null,
-      "players": 3
+      "players": 4
     },
     {
       "id": "e91d7cee01389cd0a216ef74f21dc49a0015fd15",
@@ -510,7 +48,18 @@
       "buyin": 7.84,
       "fee": 0.96,
       "currency": "USD",
-      "players": 5
+      "players": 6
+    },
+    {
+      "id": "21d5a8eaf926dff0a04a9501827062d2ef7004d2",
+      "start_date": "2026-03-05T13:40:00+00:00",
+      "name": "Power Path Step 3: $11 NLHE [Turbo],  35 Seats Gtd to $55 Step 4",
+      "game": "Hold'em",
+      "buyin_raw": "$10.27 + $0.73",
+      "buyin": 10.27,
+      "fee": 0.73,
+      "currency": "USD",
+      "players": 41
     },
     {
       "id": "0d9d1bca57518b48cabe208c620b270544f02f6b",
@@ -521,7 +70,18 @@
       "buyin": 4.9,
       "fee": 0.6,
       "currency": "USD",
-      "players": 8
+      "players": 15
+    },
+    {
+      "id": "0d2cb3870a2fd35595f2631b65c3551e28317e66",
+      "start_date": "2026-03-05T13:41:00+00:00",
+      "name": "SCOOP 30-H [Daily Cooldown] Sat: $109 NLHE [7-Max] [Hyper-Turbo, Deep],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$103.81 + $5.19",
+      "buyin": 103.81,
+      "fee": 5.19,
+      "currency": "USD",
+      "players": 0
     },
     {
       "id": "6e3d696b3e09510f2baa6db7a12439b32cf589b9",
@@ -532,7 +92,7 @@
       "buyin": 1.96,
       "fee": 0.24,
       "currency": "USD",
-      "players": 5
+      "players": 9
     },
     {
       "id": "16339343bfc5b303b61a424b3669f209642cbb89",
@@ -543,7 +103,7 @@
       "buyin": 0.98,
       "fee": 0.12,
       "currency": "USD",
-      "players": 4
+      "players": 6
     },
     {
       "id": "9aa862d426d005222925f14fd29a4a3079e211ea",
@@ -554,7 +114,7 @@
       "buyin": 0.29,
       "fee": 0.04,
       "currency": "USD",
-      "players": 0
+      "players": 4
     },
     {
       "id": "b5d41146dd81328ce1c83a7099ef90c0101b2a20",
@@ -576,7 +136,7 @@
       "buyin": 0.49,
       "fee": 0.06,
       "currency": "USD",
-      "players": 9
+      "players": 26
     },
     {
       "id": "c1edd2184e47ad121aac8706e9525c2fa5b9e8d9",
@@ -587,7 +147,7 @@
       "buyin": 10.27,
       "fee": 0.73,
       "currency": "USD",
-      "players": 7
+      "players": 6
     },
     {
       "id": "e3f03590c5f91cc8404b1f76ce5a552a048cc2ba",
@@ -598,7 +158,7 @@
       "buyin": 1.96,
       "fee": 0.24,
       "currency": "USD",
-      "players": 0
+      "players": 2
     },
     {
       "id": "6d78a139d23b0513d7e937569b10c57dbdb61739",
@@ -609,7 +169,7 @@
       "buyin": 22000,
       "fee": 3000,
       "currency": null,
-      "players": 3
+      "players": 8
     },
     {
       "id": "88816348e33222398ddd3f77db54522912824860",
@@ -620,7 +180,7 @@
       "buyin": 3.02,
       "fee": 0.28,
       "currency": "USD",
-      "players": 3
+      "players": 4
     },
     {
       "id": "be9c5eb0d971547cd8c2d8cd09d18d0ec76f528a",
@@ -642,7 +202,7 @@
       "buyin": 3.92,
       "fee": 0.48,
       "currency": "USD",
-      "players": 16
+      "players": 20
     },
     {
       "id": "9ab2f5a3e4a1ea8724c8accdf243605e794577d4",
@@ -664,7 +224,7 @@
       "buyin": 13200,
       "fee": 1800,
       "currency": null,
-      "players": 2
+      "players": 13
     },
     {
       "id": "955644e61c407d93c26b2ea423d71d84024e6867",
@@ -689,6 +249,17 @@
       "players": 3
     },
     {
+      "id": "ca6b32c4da83cb1e8679e9c424d3030badfe98bf",
+      "start_date": "2026-03-05T14:02:00+00:00",
+      "name": "SCOOP 40-M [Sunday Million] Sat: $0.11 NLHE [Hyper-Turbo, Freebuy],  50 Seats Gtd to $1.10 Sat",
+      "game": "Hold'em",
+      "buyin_raw": "$0 + $0",
+      "buyin": 0,
+      "fee": 0,
+      "currency": "USD",
+      "players": 111
+    },
+    {
       "id": "700374e58db55defec6caa74e0841777effa967d",
       "start_date": "2026-03-05T14:02:00+00:00",
       "name": "Hot $55 Sat: $11 NLHE [Hyper-Turbo],  2 Seats Gtd",
@@ -708,7 +279,7 @@
       "buyin": 1.51,
       "fee": 0.14,
       "currency": "USD",
-      "players": 2
+      "players": 4
     },
     {
       "id": "1ba134e77065e3215a51c3723d9b3202a0af327d",
@@ -719,7 +290,7 @@
       "buyin": 6.95,
       "fee": 0.55,
       "currency": "USD",
-      "players": 0
+      "players": 1
     },
     {
       "id": "814f3db54fbfe2a105de817d0100e291237b713e",
@@ -741,7 +312,7 @@
       "buyin": 2.01,
       "fee": 0.19,
       "currency": "USD",
-      "players": 1
+      "players": 2
     },
     {
       "id": "4e484e6d58d0343c698747fe02790c6c94dc0741",
@@ -752,7 +323,7 @@
       "buyin": 2.94,
       "fee": 0.36,
       "currency": "USD",
-      "players": 5
+      "players": 8
     },
     {
       "id": "c1285409dde444e8f217ebe82c58d890df4e4b5f",
@@ -796,7 +367,7 @@
       "buyin": 4.9,
       "fee": 0.6,
       "currency": "EUR",
-      "players": 1
+      "players": 2
     },
     {
       "id": "acf9ccf730a7d2bcc8bfeb64e15f6fb1c3a5a0b4",
@@ -840,7 +411,7 @@
       "buyin": 14.7,
       "fee": 1.8,
       "currency": "USD",
-      "players": 308
+      "players": 394
     },
     {
       "id": "b26f01c89897ab1d99e244bc2f874e82efbcbce4",
@@ -851,7 +422,7 @@
       "buyin": 68.18,
       "fee": 6.82,
       "currency": "USD",
-      "players": 148
+      "players": 187
     },
     {
       "id": "398b2ca0e64d8e411827330a7e91434f59d62c27",
@@ -862,7 +433,7 @@
       "buyin": 200,
       "fee": 15,
       "currency": "USD",
-      "players": 11
+      "players": 16
     },
     {
       "id": "de4e9cd2594abb73a40d974f37089c6ae4bd3e9c",
@@ -884,7 +455,7 @@
       "buyin": 1.4,
       "fee": 0.1,
       "currency": "USD",
-      "players": 2
+      "players": 14
     },
     {
       "id": "60cb84ec0136a5e55ed2cb4eaad721dbcaec7b0c",
@@ -895,7 +466,7 @@
       "buyin": 20.95,
       "fee": 1.05,
       "currency": "USD",
-      "players": 2
+      "players": 5
     },
     {
       "id": "98231f7b83ceac5339567b07312d1201dbeeeaec",
@@ -917,7 +488,7 @@
       "buyin": 50,
       "fee": 5,
       "currency": "USD",
-      "players": 4
+      "players": 6
     },
     {
       "id": "fe57703d6510ed9c824c53b1e047d798e0bf9a63",
@@ -928,7 +499,7 @@
       "buyin": 9.8,
       "fee": 1.2,
       "currency": "USD",
-      "players": 9
+      "players": 11
     },
     {
       "id": "8398c99cf59fd8df75827c57357f2351ea3ecc6a",
@@ -939,7 +510,7 @@
       "buyin": 40,
       "fee": 4,
       "currency": "USD",
-      "players": 7
+      "players": 9
     },
     {
       "id": "37e4b3d5df405ebf848bcd330a8ae7ed7516303a",
@@ -950,7 +521,7 @@
       "buyin": 3.92,
       "fee": 0.48,
       "currency": "USD",
-      "players": 7
+      "players": 11
     },
     {
       "id": "b1f5d4181792fbd034b76682b22bbe181cdc6a8f",
@@ -961,7 +532,7 @@
       "buyin": 10.27,
       "fee": 0.73,
       "currency": "USD",
-      "players": 4
+      "players": 7
     },
     {
       "id": "caee86a121ace69fa6c93179990bf888f2cd9fea",
@@ -983,7 +554,7 @@
       "buyin": 2.94,
       "fee": 0.36,
       "currency": "USD",
-      "players": 3
+      "players": 4
     },
     {
       "id": "e8d4a3e44f7e375b424d5236efb69a2692df31fe",
@@ -1016,7 +587,7 @@
       "buyin": 5.05,
       "fee": 0.45,
       "currency": "USD",
-      "players": 6
+      "players": 7
     },
     {
       "id": "d88e5b13db233f11796de1fe51113877d84b26a6",
@@ -1027,7 +598,7 @@
       "buyin": 5.05,
       "fee": 0.45,
       "currency": "USD",
-      "players": 0
+      "players": 1
     },
     {
       "id": "e14fd6ed7ddb46e3f7ba1f6943572dcc4ba07968",
@@ -1038,7 +609,7 @@
       "buyin": 9.8,
       "fee": 1.2,
       "currency": "USD",
-      "players": 0
+      "players": 2
     },
     {
       "id": "12d4a6f0bb0f26373cf0a0f33123560b2b1e4959",
@@ -1060,7 +631,7 @@
       "buyin": 6.69,
       "fee": 0.81,
       "currency": "EUR",
-      "players": 2
+      "players": 0
     },
     {
       "id": "f9c6ff710b6505edce3e7d02b940bdc50adc834d",
@@ -1082,7 +653,7 @@
       "buyin": 9.8,
       "fee": 1.2,
       "currency": "USD",
-      "players": 22
+      "players": 23
     },
     {
       "id": "3e5bdc8de269e67296b34b39fcb1fa98051f078d",
@@ -1115,7 +686,7 @@
       "buyin": 9.8,
       "fee": 1.2,
       "currency": "USD",
-      "players": 2
+      "players": 3
     },
     {
       "id": "e77f22028d84f46c902b62e97bbb17c1741a0482",
@@ -1126,7 +697,7 @@
       "buyin": 1.96,
       "fee": 0.24,
       "currency": "USD",
-      "players": 9
+      "players": 17
     },
     {
       "id": "d50800bdd95180473514b813ae9ab40eeed6e02f",
@@ -1214,7 +785,7 @@
       "buyin": 88000,
       "fee": 12000,
       "currency": null,
-      "players": 1
+      "players": 2
     },
     {
       "id": "f0d783c9c25a66ea9a8dd1a0f55a34aaf5a0efa3",
@@ -1236,7 +807,7 @@
       "buyin": 44000,
       "fee": 6000,
       "currency": null,
-      "players": 0
+      "players": 1
     },
     {
       "id": "751a28012739622ced3b9309d15a0e6906a7d741",
@@ -1269,7 +840,7 @@
       "buyin": 9.8,
       "fee": 1.2,
       "currency": "USD",
-      "players": 7
+      "players": 10
     },
     {
       "id": "13685cd1e011c76394c0a30e1a99e89abcec8c65",
@@ -1335,7 +906,7 @@
       "buyin": 20,
       "fee": 2,
       "currency": "USD",
-      "players": 2
+      "players": 4
     },
     {
       "id": "fe6344995341e60fa9c07aae43dd38c4b33bb49f",
@@ -1357,7 +928,7 @@
       "buyin": 6.69,
       "fee": 0.81,
       "currency": "USD",
-      "players": 54
+      "players": 59
     },
     {
       "id": "180fee8cfa9283d2e5b4647a8fe327acd0b62838",
@@ -1379,7 +950,7 @@
       "buyin": 2.94,
       "fee": 0.36,
       "currency": "USD",
-      "players": 3
+      "players": 5
     },
     {
       "id": "ef6b656b0b00dfc52a4b24e2d7aa9b902218eccf",
@@ -1456,7 +1027,7 @@
       "buyin": 1,
       "fee": 0.1,
       "currency": "USD",
-      "players": 9
+      "players": 11
     },
     {
       "id": "18dce07aa6d66f74e95783b11b14427ac7b10b8c",
@@ -1467,7 +1038,7 @@
       "buyin": 25.71,
       "fee": 1.29,
       "currency": "USD",
-      "players": 7
+      "players": 8
     },
     {
       "id": "bffb760841f6f4e7b10be8ae5c6e295333fedb70",
@@ -1511,7 +1082,7 @@
       "buyin": 1.96,
       "fee": 0.24,
       "currency": "USD",
-      "players": 0
+      "players": 1
     },
     {
       "id": "b30b41769117f73b7c0decb2353cd51637784b14",
@@ -1544,7 +1115,7 @@
       "buyin": 440000,
       "fee": 60000,
       "currency": null,
-      "players": 1
+      "players": 0
     },
     {
       "id": "3755e888ce452470b27e3c8658e12d391998f78d",
@@ -1599,7 +1170,7 @@
       "buyin": 0.29,
       "fee": 0.04,
       "currency": "USD",
-      "players": 0
+      "players": 1
     },
     {
       "id": "047df67117d45d8f143a8cf21c46dd0ff2c8bfba",
@@ -1632,7 +1203,7 @@
       "buyin": 41.9,
       "fee": 2.1,
       "currency": "USD",
-      "players": 3
+      "players": 5
     },
     {
       "id": "64cf397d37fbcc623a0de0ff06d727d7945a0638",
@@ -1665,7 +1236,7 @@
       "buyin": 1.96,
       "fee": 0.24,
       "currency": "USD",
-      "players": 7
+      "players": 11
     },
     {
       "id": "1b3a4d6fbdbbc908e3bcd8046ffdcff9d18842ce",
@@ -1742,7 +1313,7 @@
       "buyin": 4.9,
       "fee": 0.6,
       "currency": "USD",
-      "players": 266
+      "players": 307
     },
     {
       "id": "a6d419b0a17304db86bbfee89c11a890ebbc1499",
@@ -1753,7 +1324,7 @@
       "buyin": 30,
       "fee": 3,
       "currency": "USD",
-      "players": 119
+      "players": 126
     },
     {
       "id": "12eb7741a81c885a2d1e9604cd889f880ccdbb8c",
@@ -1764,7 +1335,7 @@
       "buyin": 200,
       "fee": 15,
       "currency": "USD",
-      "players": 28
+      "players": 29
     },
     {
       "id": "61a1d6387279d832a99ba84523033da999343110",
@@ -1852,7 +1423,7 @@
       "buyin": 0.98,
       "fee": 0.12,
       "currency": "USD",
-      "players": 7
+      "players": 8
     },
     {
       "id": "31659f433beb3d4b24d3ffbc978b39960094acfe",
@@ -1896,7 +1467,7 @@
       "buyin": 20,
       "fee": 2,
       "currency": "USD",
-      "players": 3
+      "players": 2
     },
     {
       "id": "cc979cdaf9304180e3041e056a49b519e6127b31",
@@ -1973,7 +1544,7 @@
       "buyin": 52.38,
       "fee": 2.62,
       "currency": "EUR",
-      "players": 0
+      "players": 1
     },
     {
       "id": "d06564df3ebd2ea98695243e2a211a22633fe138",
@@ -1995,7 +1566,7 @@
       "buyin": 50,
       "fee": 5,
       "currency": "USD",
-      "players": 91
+      "players": 90
     },
     {
       "id": "c0b218b30b2f14d5517739a3c2b4079200972c3b",
@@ -2006,7 +1577,7 @@
       "buyin": 4.9,
       "fee": 0.6,
       "currency": "USD",
-      "players": 12
+      "players": 14
     },
     {
       "id": "a3ec1357c7c59843a9926459eb1b23898b2d21a5",
@@ -2039,7 +1610,7 @@
       "buyin": 1,
       "fee": 0.1,
       "currency": "USD",
-      "players": 3
+      "players": 2
     },
     {
       "id": "60b4f43754386019dbc013df0ccae630c581502d",
@@ -2072,7 +1643,7 @@
       "buyin": 15.5,
       "fee": 1,
       "currency": "EUR",
-      "players": 1
+      "players": 0
     },
     {
       "id": "3e2483e79769e469c56a0639ddd2fd141e2bd023",
@@ -2094,7 +1665,7 @@
       "buyin": 2.94,
       "fee": 0.36,
       "currency": "USD",
-      "players": 3
+      "players": 4
     },
     {
       "id": "88faf6d33edc2b16a037bb3dcb7c1ec5e006d7ff",
@@ -2105,7 +1676,7 @@
       "buyin": 20,
       "fee": 2,
       "currency": "USD",
-      "players": 9
+      "players": 8
     },
     {
       "id": "b14429279da8e818caec3a99c4ba490022fd5e20",
@@ -2205,6 +1776,435 @@
       "fee": 0.1,
       "currency": "USD",
       "players": 1
+    },
+    {
+      "id": "277022a53611cde6e219a65fd55fcdf927f27169",
+      "start_date": "2026-03-05T15:24:00+00:00",
+      "name": "$7.50 NL Courchevel Hi/Lo [6-Max, Progressive KO], $400 Gtd",
+      "game": "Courchevel",
+      "buyin_raw": "$6.69 + $0.81",
+      "buyin": 6.69,
+      "fee": 0.81,
+      "currency": "USD",
+      "players": 3
+    },
+    {
+      "id": "3121cad27bcba852c0cdaefbb67373c04258b203",
+      "start_date": "2026-03-05T15:25:00+00:00",
+      "name": "Hot 10M,  500M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "8800000 + 1200000",
+      "buyin": 8800000,
+      "fee": 1200000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "05e431303376655075bd786f351fe6a107772a27",
+      "start_date": "2026-03-05T15:25:00+00:00",
+      "name": "$16.50 NLHE [Progressive KO, Deep Stacks], $1K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$14.70 + $1.80",
+      "buyin": 14.7,
+      "fee": 1.8,
+      "currency": "USD",
+      "players": 5
+    },
+    {
+      "id": "a740d663acf846dc276024c553946f3bdb835ef6",
+      "start_date": "2026-03-05T15:25:00+00:00",
+      "name": "$5.50 NLHE, $500 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$4.90 + $0.60",
+      "buyin": 4.9,
+      "fee": 0.6,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "64be4024065d4eb5246f5183c1cd382eae4141c9",
+      "start_date": "2026-03-05T15:26:00+00:00",
+      "name": "SCOOP Edition: Fenomeno Last Chance Sat: $16.50 NLHE [Hyper-Turbo],  10 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$15.50 + $1",
+      "buyin": 15.5,
+      "fee": 1,
+      "currency": "USD",
+      "players": 1
+    },
+    {
+      "id": "a56c66f7b27ac721d62754036c386233fea1e550",
+      "start_date": "2026-03-05T15:29:00+00:00",
+      "name": "Limit Stud Hi/Lo",
+      "game": "Stud",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "e1bec4cc0e47f1681e5021ccee6909f9d2347562",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "EPT Monte-Carlo Main Event Qualifier: €530 NLHE,  1 Package Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "€500 + €30",
+      "buyin": 500,
+      "fee": 30,
+      "currency": "EUR",
+      "players": 8
+    },
+    {
+      "id": "9c5657bbfc7bd1ffd828bc6712a65dca5d002c8e",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "Omania PLO8 5M,  150M Chips Gtd",
+      "game": "Omaha",
+      "buyin_raw": "4400000 + 600000",
+      "buyin": 4400000,
+      "fee": 600000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "e8840cc5d8bcb517bd591ce02d9d398c2b844f82",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "Meteor $33 [8-Max, Progressive KO],  $10K Gtd | New Tournament!",
+      "game": "Hold'em",
+      "buyin_raw": "$30 + $3",
+      "buyin": 30,
+      "fee": 3,
+      "currency": "USD",
+      "players": 11
+    },
+    {
+      "id": "3f8e186fb1bd48a7d4b027bb5465370e34f350f6",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "SCOOP 40-M [Sunday Million] Sat: $5.50 NLHE [Hyper-Turbo,1R1A, Deep],  5 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$5.05 + $0.45",
+      "buyin": 5.05,
+      "fee": 0.45,
+      "currency": "USD",
+      "players": 3
+    },
+    {
+      "id": "df62f12729477b17e514301e3c2bf46319a2557e",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "Hot Omania $16.50 PLO,  $500 Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$14.70 + $1.80",
+      "buyin": 14.7,
+      "fee": 1.8,
+      "currency": "USD",
+      "players": 3
+    },
+    {
+      "id": "03f991e12e88d565eceb4cb375d9cbac1fdb5228",
+      "start_date": "2026-03-05T15:30:00+00:00",
+      "name": "Bounty Builder $3.30,  $3K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "players": 29
+    },
+    {
+      "id": "963cbb628c7a7cce05fe01f35c81ac8a360fec3a",
+      "start_date": "2026-03-05T15:31:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "44000 + 6000",
+      "buyin": 44000,
+      "fee": 6000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "2b768e80a84d5215d8884263a3bd6f096722554a",
+      "start_date": "2026-03-05T15:32:00+00:00",
+      "name": "Bounty Builder $55 Sat: $5.50 NLHE [Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$4.90 + $0.60",
+      "buyin": 4.9,
+      "fee": 0.6,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "2bdf425ebad05baa58453376811a95980b0a51fb",
+      "start_date": "2026-03-05T15:34:00+00:00",
+      "name": "Meteor Sat: $2.20 NLHE [Hyper-Turbo,1R1A, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "b55f11258398cf4c590b2c78bd1e2650037222c8",
+      "start_date": "2026-03-05T15:34:00+00:00",
+      "name": "SCOOP 31-M [Single Re-Entry] Sat: $11 PLO [6-Max] [Hyper-Turbo, Deep],  2 Seats Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$10.27 + $0.73",
+      "buyin": 10.27,
+      "fee": 0.73,
+      "currency": "USD",
+      "players": 3
+    },
+    {
+      "id": "8cd71db97229f338450e7b4992b863d104a4db9d",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "Irish Open Main Event Sat: €22 NLHE [Hyper-Turbo],  2 Seats Gtd to €109 Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€20.95 + €1.05",
+      "buyin": 20.95,
+      "fee": 1.05,
+      "currency": "EUR",
+      "players": 1
+    },
+    {
+      "id": "e2c019ace8bb5dec004a791179dac0dbbee6bbbb",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "Pot Limit 5 Card Omaha",
+      "game": "5 Card Omaha",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "671b87afe5370ad243d6d7e9ec549039b8e2a73e",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "SCOOP 31-H [Single Re-Entry] Sat: $55 PLO [6-Max] [Hyper-Turbo, Deep],  1 Seat Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$52.38 + $2.62",
+      "buyin": 52.38,
+      "fee": 2.62,
+      "currency": "USD",
+      "players": 2
+    },
+    {
+      "id": "7f0dfc0241005895cbeb9458b910acf25f15f137",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "Irish Open Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  4 Seats Gtd to €22 Sat to MEGA Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€2.01 + €0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "EUR",
+      "players": 1
+    },
+    {
+      "id": "3b58b1a4208f7b88e6e898563dadd54a78bacdad",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "Hot Hyper $2.20 [Progressive KO],  $750 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "players": 3
+    },
+    {
+      "id": "5aff42bfec7e821b4778be97af3baaaa3d5aa969",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "Hot Hyper $33,  $4K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$31.43 + $1.57",
+      "buyin": 31.43,
+      "fee": 1.57,
+      "currency": "USD",
+      "players": 6
+    },
+    {
+      "id": "44a0ff4af6d10b01dbb8f1d7a686e25085d03829",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "SCOOP 30-H [Daily Cooldown] Sat: $55 NLHE [7-Max] [Hyper-Turbo, Deep],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$52.38 + $2.62",
+      "buyin": 52.38,
+      "fee": 2.62,
+      "currency": "USD",
+      "players": 1
+    },
+    {
+      "id": "4698444ae356774cdd6f1c53c359c4b8f4df2830",
+      "start_date": "2026-03-05T15:36:00+00:00",
+      "name": "SCOOP 30-M [Daily Cooldown] Sat: $5.50 NLHE [7-Max] [Hyper-Turbo, Deep],  10 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$5.05 + $0.45",
+      "buyin": 5.05,
+      "fee": 0.45,
+      "currency": "USD",
+      "players": 6
+    },
+    {
+      "id": "276ce241eacace1d9cc5fa1aa85569f0d8ebb9e7",
+      "start_date": "2026-03-05T15:36:00+00:00",
+      "name": "$5.50 6-Card PLO [6-Max, Progressive KO], $300 Gtd",
+      "game": "",
+      "buyin_raw": "$4.90 + $0.60",
+      "buyin": 4.9,
+      "fee": 0.6,
+      "currency": "USD",
+      "players": 2
+    },
+    {
+      "id": "32fdaf18412fd306bb27e756182e8a78b8a204e2",
+      "start_date": "2026-03-05T15:36:00+00:00",
+      "name": "Hot Hyper $11 Sat: $1.10 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1 + $0.10",
+      "buyin": 1,
+      "fee": 0.1,
+      "currency": "USD",
+      "players": 1
+    },
+    {
+      "id": "7c9170408cbe6fed32fe7477254136c2c11b9786",
+      "start_date": "2026-03-05T15:39:00+00:00",
+      "name": "Mini Spectral Shadow Last Chance Sat: $1.10 NLHE [Hyper-Turbo],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1 + $0.10",
+      "buyin": 1,
+      "fee": 0.1,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "c973496cfe3832b6800ba6cbdcfaa01860b37a2f",
+      "start_date": "2026-03-05T15:39:00+00:00",
+      "name": "SCOOP 29-M [The Copacabana Unlimited] Sat: $3.30 NLHE [8-Max] [Hyper-Turbo, Deep],  5 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$3.02 + $0.28",
+      "buyin": 3.02,
+      "fee": 0.28,
+      "currency": "USD",
+      "players": 2
+    },
+    {
+      "id": "37cdee5adf32505d51a272e5eff73ebc2feb2ec4",
+      "start_date": "2026-03-05T15:39:00+00:00",
+      "name": "Omania $16.50 Sat: $2.20 PLO8 [6-Max, Hyper-Turbo, Deep],  2 Seats Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "0186a5bfce4f58aae06c26d990ca7c0b61364727",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€52.38 + €2.62",
+      "buyin": 52.38,
+      "fee": 2.62,
+      "currency": "EUR",
+      "players": 0
+    },
+    {
+      "id": "cb8b7cf88bd63881e5bf6dfd8195008ee1270955",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "Hot Hyper 50K,  4M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "44000 + 6000",
+      "buyin": 44000,
+      "fee": 6000,
+      "currency": null,
+      "players": 0
+    },
+    {
+      "id": "cfe081ae16566619ba0e70ad564540bb6d98e4f1",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "SCOOP 30-L [Daily Cooldown] Last Chance Sat: $2.20 NLHE [7-Max],  50 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "players": 14
+    },
+    {
+      "id": "fde11aedd8e86ab68b3ec26732b2ece3388a2ac2",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "Irish Open Main Event Sat: €22 NLHE [Turbo, Deep] | 4 Seats Gtd to €109 MEGA Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€20 + €2",
+      "buyin": 20,
+      "fee": 2,
+      "currency": "EUR",
+      "players": 0
+    },
+    {
+      "id": "a36356ab752b6afea06865561a1b2d18fdda4401",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "$1.10 NLHE, $250 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.98 + $0.12",
+      "buyin": 0.98,
+      "fee": 0.12,
+      "currency": "USD",
+      "players": 5
+    },
+    {
+      "id": "cd02cc1379402011240e4ecddee865f31de1b4b6",
+      "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "Bounty Builder $22 Sat: $1.10 NLHE [Hyper-Turbo,1R1A, Deep],  5 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1 + $0.10",
+      "buyin": 1,
+      "fee": 0.1,
+      "currency": "USD",
+      "players": 2
+    },
+    {
+      "id": "3fc2d73d6b9771b1903744baac7b546699464451",
+      "start_date": "2026-03-05T15:41:00+00:00",
+      "name": "Spectral Shadow Last Chance Sat: $11 NLHE [Hyper-Turbo],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$10.27 + $0.73",
+      "buyin": 10.27,
+      "fee": 0.73,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "c89c78882c54f57a4404183b3f482f5f0db98fea",
+      "start_date": "2026-03-05T15:41:00+00:00",
+      "name": "Bounty Adrenaline $16.50 Sat: $1.10 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1 + $0.10",
+      "buyin": 1,
+      "fee": 0.1,
+      "currency": "USD",
+      "players": 1
+    },
+    {
+      "id": "60a7b55bb1eef8ce78d12622ab8e161625c27de9",
+      "start_date": "2026-03-05T15:43:00+00:00",
+      "name": "$4.40 PL Badugi [Progressive KO], $200 Gtd",
+      "game": "Badugi",
+      "buyin_raw": "$3.92 + $0.48",
+      "buyin": 3.92,
+      "fee": 0.48,
+      "currency": "USD",
+      "players": 0
+    },
+    {
+      "id": "de56c652a10e3fe9e19a6b71daf96ed5443cc2ee",
+      "start_date": "2026-03-05T15:44:00+00:00",
+      "name": "Sunday Storm Sat: $0.33 NLHE [Turbo, Deep],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.29 + $0.04",
+      "buyin": 0.29,
+      "fee": 0.04,
+      "currency": "USD",
+      "players": 0
     }
   ]
 }
