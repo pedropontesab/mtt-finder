@@ -1,0 +1,11 @@
+{
+  "name": "mtt-finder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/fetch_pokerstars.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.4"
+  }
+}
