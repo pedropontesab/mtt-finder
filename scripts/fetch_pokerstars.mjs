@@ -4,8 +4,11 @@ import crypto from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 
 const OUT_PATH = path.join("public", "tournaments.json");
+const EUR_PATH = path.join("public", "tournaments_eur.json");
+
 const UA = "mtt-finder/0.1 (public-data; github-actions)";
 
+// Tenta .it (pode falhar/404), depois cai para .com (que redireciona p/ .bet)
 const URLS = [
   "https://www.pokerstars.it/datafeed_global/tournaments/all.xml",
   "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
@@ -20,11 +23,17 @@ async function fetchText(url) {
     redirect: "follow",
     headers: {
       "user-agent": UA,
-      "accept": "application/xml,text/xml;q=0.9,*/*;q=0.8",
+      accept: "application/xml,text/xml;q=0.9,*/*;q=0.8",
     },
   });
+
   const text = await res.text();
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
+
+  // Se falhar, jogue erro com status e final url (útil p/ debug)
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
+  }
+
   return { text, finalUrl: res.url };
 }
 
@@ -42,21 +51,48 @@ function parseMoney(raw) {
   const buyin = a ? Number(a.replace(",", ".")) : null;
   const fee = b ? Number(b.replace(",", ".")) : 0;
 
-  return { raw: s, buyin: Number.isFinite(buyin) ? buyin : null, fee, currency };
+  return {
+    raw: s,
+    buyin: Number.isFinite(buyin) ? buyin : null,
+    fee: Number.isFinite(fee) ? fee : null,
+    currency,
+  };
 }
 
+// Coleta tipos de lobby se existir algo como <lobby type="COM"> etc.
+// (No feed atual pode não existir — mas logamos se aparecer)
+function collectLobbyTypesDeep(obj) {
+  const types = new Set();
+  const stack = [obj];
+
+  while (stack.length) {
+    const cur = stack.pop();
+    if (!cur || typeof cur !== "object") continue;
+
+    if (cur.lobby) {
+      const l = cur.lobby;
+      const arr = Array.isArray(l) ? l : [l];
+      for (const x of arr) {
+        const t = x?.["@_type"] ?? x?.type ?? null;
+        if (t) types.add(String(t));
+      }
+    }
+
+    for (const v of Object.values(cur)) {
+      if (v && typeof v === "object") stack.push(v);
+    }
+  }
+
+  return [...types].sort();
+}
+
+// À prova de estrutura: acha qualquer lugar que tenha chave "tournament"
 function findTournamentListDeep(obj) {
   const stack = [obj];
   while (stack.length) {
     const cur = stack.pop();
     if (!cur || typeof cur !== "object") continue;
 
-    // Se já for uma lista de torneios
-    if (Array.isArray(cur) && cur.length && cur[0]?.start_date && cur[0]?.name) {
-      return cur;
-    }
-
-    // Caso clássico: algum nó tem a chave "tournament"
     if (cur.tournament) return cur.tournament;
 
     for (const v of Object.values(cur)) {
@@ -70,16 +106,21 @@ function extractTournaments(xmlText) {
   const parser = new XMLParser({
     ignoreAttributes: false,
     attributeNamePrefix: "@_",
-    // isso ajuda quando tem nós únicos e às vezes arrays:
-    isArray: (name, jpath, isLeafNode, isAttribute) => name === "tournament",
+    // força "tournament" virar array quando possível
+    isArray: (name) => name === "tournament",
   });
 
   const parsed = parser.parse(xmlText);
 
-  // Debug: mostrar as chaves do topo (uma vez)
+  // Debug: ajuda a entender a estrutura do XML
   const topKeys = parsed && typeof parsed === "object" ? Object.keys(parsed) : [];
   console.log("TOP_KEYS:", topKeys.join(", "));
 
+  // Debug: lobbies (se existirem no XML)
+  const lobbyTypes = collectLobbyTypesDeep(parsed);
+  console.log("LOBBY_TYPES:", lobbyTypes.length ? lobbyTypes.join(", ") : "(none)");
+
+  // Estruturas comuns
   let candidates =
     parsed?.selected_tournaments?.tournament ??
     parsed?.tournaments?.tournament ??
@@ -111,34 +152,11 @@ function extractTournaments(xmlText) {
     });
   }
 
+  // ordena por data
   items.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
   return items.slice(0, 5000);
 }
-function collectLobbyTypesDeep(obj) {
-  const types = new Set();
-  const stack = [obj];
 
-  while (stack.length) {
-    const cur = stack.pop();
-    if (!cur || typeof cur !== "object") continue;
-
-    // caso: { lobby: [{ "@_type": "COM", ... }, ...] } ou { lobby: { "@_type": "EU" } }
-    if (cur.lobby) {
-      const l = cur.lobby;
-      const arr = Array.isArray(l) ? l : [l];
-      for (const x of arr) {
-        const t = x?.["@_type"] ?? x?.type ?? null;
-        if (t) types.add(String(t));
-      }
-    }
-
-    for (const v of Object.values(cur)) {
-      if (v && typeof v === "object") stack.push(v);
-    }
-  }
-
-  return [...types].sort();
-}
 async function main() {
   let xmlText = null;
   let usedUrl = null;
@@ -152,6 +170,7 @@ async function main() {
       usedUrl = url;
       finalUrl = r.finalUrl;
 
+      console.log("[OK] fetch:", url);
       console.log("USED_URL:", usedUrl);
       console.log("FINAL_URL:", finalUrl);
       console.log("XML_PREFIX:", xmlText.slice(0, 300).replace(/\s+/g, " "));
@@ -163,18 +182,21 @@ async function main() {
     }
   }
 
-  if (!xmlText) throw new Error(`Failed to fetch any feed. Last error: ${lastErr?.message}`);
+  if (!xmlText) {
+    throw new Error(`Failed to fetch any feed. Last error: ${lastErr?.message}`);
+  }
 
   const items = extractTournaments(xmlText);
 
   if (items.length === 0) {
-    throw new Error("Parsed 0 tournaments. Refusing to overwrite tournaments.json with empty data.");
+    throw new Error("Parsed 0 tournaments. Refusing to overwrite JSON with empty data.");
   }
-  const lobbyTypes = collectLobbyTypesDeep(parsed);
-console.log("LOBBY_TYPES:", lobbyTypes.join(", "));
+
+  const generatedAt = new Date().toISOString();
+
   const payload = {
     meta: {
-      generated_at: new Date().toISOString(),
+      generated_at: generatedAt,
       used_url: usedUrl,
       final_url: finalUrl,
       count: items.length,
@@ -182,30 +204,24 @@ console.log("LOBBY_TYPES:", lobbyTypes.join(", "));
     items,
   };
 
-  // garante pasta public/
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-
-  // 1) arquivo completo
-  fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
-
-  // 2) arquivo filtrado EUR
-  const eurItems = items.filter((t) => t.currency === "EUR");
+  const eurItems = items.filter((t) => t.currency === "EUR" || String(t.buyin_raw || "").includes("€"));
   const eurPayload = {
     meta: {
-      generated_at: payload.meta.generated_at,
-      used_url: payload.meta.used_url,
-      final_url: payload.meta.final_url,
+      generated_at: generatedAt,
+      used_url: usedUrl,
+      final_url: finalUrl,
       filter: "EUR",
       count: eurItems.length,
     },
     items: eurItems,
   };
 
-  const EUR_PATH = path.join("public", "tournaments_eur.json");
+  fs.mkdirSync("public", { recursive: true });
+  fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   fs.writeFileSync(EUR_PATH, JSON.stringify(eurPayload, null, 2), "utf-8");
 
-  console.log(`OK: ${items.length} tournaments written -> ${OUT_PATH}`);
-  console.log(`OK: ${eurItems.length} EUR tournaments written -> ${EUR_PATH}`);
+  console.log(`OK: ${items.length} tournaments -> ${OUT_PATH}`);
+  console.log(`OK: ${eurItems.length} EUR tournaments -> ${EUR_PATH}`);
 }
 
 main().catch((e) => {
