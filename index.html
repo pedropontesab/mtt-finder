@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>MTT Finder (PokerStars)</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 16px; max-width: 1200px; margin: 0 auto; }
+    h1 { margin: 0 0 6px; }
+    .muted { color:#666; font-size: 12px; margin-bottom: 12px; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 14px; align-items: end; }
+    label { display:flex; flex-direction:column; gap:4px; font-size: 12px; color:#333; }
+    input, select { padding: 8px; min-width: 200px; }
+    button { padding: 8px 12px; cursor:pointer; }
+    table { width:100%; border-collapse: collapse; }
+    th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align:left; vertical-align: top; }
+    th { background:#f5f5f5; position: sticky; top: 0; }
+    .pill { display:inline-block; padding:2px 8px; border:1px solid #ddd; border-radius:999px; font-size:12px; margin-right:6px; }
+    .right { margin-left:auto; }
+    .small { font-size:12px; color:#444; }
+  </style>
+</head>
+<body>
+  <h1>MTT Finder (PokerStars)</h1>
+  <div class="muted" id="meta">Carregando…</div>
+
+  <div class="row">
+    <label>
+      Busca no nome
+      <input id="q" placeholder="ex: KO, Sunday, Bounty, Satellite…" />
+    </label>
+
+    <label>
+      Buy-in min
+      <input id="min" type="number" step="0.01" placeholder="0" />
+    </label>
+
+    <label>
+      Buy-in max
+      <input id="max" type="number" step="0.01" placeholder="ex: 20" />
+    </label>
+
+    <label>
+      Próximas…
+      <select id="window">
+        <option value="0">Qualquer horário</option>
+        <option value="2">2 horas</option>
+        <option value="6">6 horas</option>
+        <option value="12">12 horas</option>
+        <option value="24">24 horas</option>
+      </select>
+    </label>
+
+    <label>
+      Moeda
+      <select id="currency">
+        <option value="">Todas</option>
+        <option value="EUR">Somente EUR</option>
+        <option value="USD">Somente USD</option>
+      </select>
+    </label>
+
+    <label>
+      Tipo
+      <select id="type">
+        <option value="">Todos</option>
+        <option value="KO">KO / Bounty</option>
+        <option value="SAT">Satellite</option>
+        <option value="TURBO">Turbo</option>
+      </select>
+    </label>
+
+    <button id="btn">Aplicar</button>
+    <span class="right small" id="count"></span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Start (Roma)</th>
+        <th>Nome</th>
+        <th>Game</th>
+        <th>Buy-in</th>
+        <th>Tags</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+<script>
+let ALL = [];
+let META = {};
+
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;" }[c])); }
+
+function tagsFromName(name) {
+  const n = String(name || "").toLowerCase();
+  const tags = [];
+  if (n.includes("ko") || n.includes("bounty") || n.includes("progressive")) tags.push("KO");
+  if (n.includes("satellite") || n.includes("sat")) tags.push("SAT");
+  if (n.includes("turbo") || n.includes("hyper")) tags.push("TURBO");
+  if (n.includes("freeroll")) tags.push("FREEROLL");
+  return tags;
+}
+
+function toRomeTime(dateStr) {
+  // Se vier ISO, funciona bem. Se vier outro formato, mostramos como está.
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+
+  return new Intl.DateTimeFormat("it-IT", {
+    timeZone: "Europe/Rome",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit"
+  }).format(d);
+}
+
+function withinHours(dateStr, hours) {
+  if (!hours || hours <= 0) return true;
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return true; // se não parseia, não filtra por janela
+  const now = new Date();
+  const diffMs = d - now;
+  return diffMs >= 0 && diffMs <= hours * 60 * 60 * 1000;
+}
+
+async function load() {
+  const res = await fetch("./public/tournaments.json", { cache: "no-store" });
+  const data = await res.json();
+  META = data.meta || {};
+  ALL = data.items || data || [];
+
+  const src = META.final_url || META.used_url || "desconhecida";
+  document.getElementById("meta").textContent =
+    `Atualizado: ${META.generated_at || "?"} | Fonte: ${src} | Itens: ${META.count ?? ALL.length}`;
+
+  apply();
+}
+
+function apply() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const min = Number(document.getElementById("min").value || 0);
+  const maxRaw = document.getElementById("max").value;
+  const max = maxRaw ? Number(maxRaw) : null;
+  const windowH = Number(document.getElementById("window").value || 0);
+  const currency = document.getElementById("currency").value;
+  const type = document.getElementById("type").value;
+
+  const filtered = ALL.filter(t => {
+    const name = String(t.name || "");
+    const nameL = name.toLowerCase();
+
+    if (q && !nameL.includes(q)) return false;
+
+    // buyin
+    const b = (t.buyin ?? null);
+    if (b !== null && b < min) return false;
+    if (max !== null && b !== null && b > max) return false;
+
+    // janela
+    if (!withinHours(t.start_date, windowH)) return false;
+
+    // moeda
+    if (currency && String(t.currency || "") !== currency) return false;
+
+    // tipo
+    const tags = tagsFromName(name);
+    if (type && !tags.includes(type)) return false;
+
+    return true;
+  });
+
+  document.getElementById("count").textContent = `Mostrando ${Math.min(filtered.length, 500)} de ${filtered.length}`;
+
+  const tbody = document.getElementById("tbody");
+  tbody.innerHTML = filtered.slice(0, 500).map(t => {
+    const tags = tagsFromName(t.name).map(x => `<span class="pill">${esc(x)}</span>`).join("");
+    return `
+      <tr>
+        <td>${esc(toRomeTime(t.start_date))}</td>
+        <td>${esc(t.name)}</td>
+        <td>${esc(t.game || "")}</td>
+        <td>${esc(t.buyin_raw || "")}</td>
+        <td>${tags}</td>
+      </tr>
+    `;
+  }).join("");
+}
+
+document.getElementById("btn").addEventListener("click", apply);
+load();
+</script>
+</body>
+</html>
