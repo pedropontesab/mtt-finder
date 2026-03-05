@@ -1,84 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T20:11:51.361Z",
+    "generated_at": "2026-03-05T20:34:04.425Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "EUR",
-    "count": 10
+    "count": 8
   },
   "items": [
-    {
-      "id": "e42a283aa9c6790b88c7c75a30cf7294e911501f",
-      "start_date": "2026-03-05T15:05:00+00:00",
-      "name": "Irish Open Main Event Sat: €11 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €109 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€10.27 + €0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 1
-    },
-    {
-      "id": "851246fdf075aa5328331a96512102e1e7fdb2ba",
-      "start_date": "2026-03-05T15:10:00+00:00",
-      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€52.38 + €2.62",
-      "buyin": 52.38,
-      "fee": 2.62,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 1
-    },
-    {
-      "id": "6eea9e44d1ded54e2c4c101ab1a7119577611a41",
-      "start_date": "2026-03-05T15:15:00+00:00",
-      "name": "PokerStars Open Monte-Carlo Main Event Qualifier: €162 NLHE,  1 Seat & Expenses Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "€150 + €12",
-      "buyin": 150,
-      "fee": 12,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
-    {
-      "id": "1758d95ec95e13ee4cf652a3f384df66443d5b05",
-      "start_date": "2026-03-05T15:15:00+00:00",
-      "name": "PokerStars Open Monte-Carlo Main Event Sat: €16.50 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd to €162 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€15.50 + €1",
-      "buyin": 15.5,
-      "fee": 1,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
     {
       "id": "e1bec4cc0e47f1681e5021ccee6909f9d2347562",
       "start_date": "2026-03-05T15:30:00+00:00",
@@ -95,7 +23,25 @@
         "BE",
         "COM"
       ],
-      "players": 9
+      "players": 11
+    },
+    {
+      "id": "f2e86dd67849355af0420b8dd18c1739f38012ba",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "PokerStars Open Monte-Carlo Main Event Qualifier: €162 NLHE,  1 Seat & Expenses Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "€150 + €12",
+      "buyin": 150,
+      "fee": 12,
+      "currency": "EUR",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ],
+      "players": 0
     },
     {
       "id": "8cd71db97229f338450e7b4992b863d104a4db9d",
@@ -116,6 +62,24 @@
       "players": 3
     },
     {
+      "id": "9f70dec139b2eb45dc40674bd1f73a2874c4cac3",
+      "start_date": "2026-03-05T15:35:00+00:00",
+      "name": "PokerStars Open Monte-Carlo Main Event Sat: €16.50 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd to €162 Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€15.50 + €1",
+      "buyin": 15.5,
+      "fee": 1,
+      "currency": "EUR",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ],
+      "players": 1
+    },
+    {
       "id": "7f0dfc0241005895cbeb9458b910acf25f15f137",
       "start_date": "2026-03-05T15:35:00+00:00",
       "name": "Irish Open Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  4 Seats Gtd to €22 Sat to MEGA Qualifier",
@@ -131,7 +95,7 @@
         "BE",
         "COM"
       ],
-      "players": 3
+      "players": 4
     },
     {
       "id": "0186a5bfce4f58aae06c26d990ca7c0b61364727",
@@ -167,7 +131,7 @@
         "BE",
         "COM"
       ],
-      "players": 0
+      "players": 8
     },
     {
       "id": "fae97938e639f56ebb6345827714328ae68504a0",
