@@ -1,448 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T21:00:09.498Z",
+    "generated_at": "2026-03-05T21:13:36.497Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "count": 200
   },
   "items": [
     {
-      "id": "027b1b96b8f2331bd433ecb91ff6fd3534e85e5a",
-      "start_date": "2026-03-05T15:48:00+00:00",
-      "name": "$55 NLO8 [6-Max, Hyper-Turbo, Progressive KO], $1K Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$52.38 + $2.62",
-      "buyin": 52.38,
-      "fee": 2.62,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 10
-    },
-    {
-      "id": "803371b78e801064cbf63cd56d8aa9c92ef0ffcb",
-      "start_date": "2026-03-05T15:49:00+00:00",
-      "name": "Pot Limit Badugi",
-      "game": "Badugi",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ],
-      "players": 3
-    },
-    {
-      "id": "cae85323936cc863cd9b8547ab91602f21a5b437",
-      "start_date": "2026-03-05T15:50:00+00:00",
-      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€52.38 + €2.62",
-      "buyin": 52.38,
-      "fee": 2.62,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 2
-    },
-    {
-      "id": "a64494b0ec17a2fc8f08ee5807156cf14ecba565",
-      "start_date": "2026-03-05T15:50:00+00:00",
-      "name": "$3.30 NLHE [6-Max], $300 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 10
-    },
-    {
-      "id": "b5f26aae8e6526eb471ee3fd548c0f7df1e26bb9",
-      "start_date": "2026-03-05T15:55:00+00:00",
-      "name": "Irish Open Main Event Sat: €22 NLHE [Hyper-Turbo],  2 Seats Gtd to €109 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€20.95 + €1.05",
-      "buyin": 20.95,
-      "fee": 1.05,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "8265d614b41ef63a189917d250983f1fec815f59",
-      "start_date": "2026-03-05T16:00:00+00:00",
-      "name": "PM SCOOP 10-H: 2.5M NLHE [8-Max, Destructor, Total KO], 1B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "2200000 + 300000",
-      "buyin": 2200000,
-      "fee": 300000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ],
-      "players": 10
-    },
-    {
-      "id": "a7edc293391568b723e2a99c9e95b6b776cf2022",
-      "start_date": "2026-03-05T16:00:00+00:00",
-      "name": "PM SCOOP 10-L: 250K NLHE [8-Max, Destructor, Total KO], 200M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ],
-      "players": 13
-    },
-    {
-      "id": "929c9772872a28f8ed98bb9a38f3553ed516df5a",
-      "start_date": "2026-03-05T16:00:00+00:00",
-      "name": "Big $22,  $1.5K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$20 + $2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 5
-    },
-    {
-      "id": "a81224a7f29b58ad3d1b2613ec5509293cb37f30",
-      "start_date": "2026-03-05T16:01:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "13200 + 1800",
-      "buyin": 13200,
-      "fee": 1800,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ],
-      "players": 23
-    },
-    {
-      "id": "bf5a7e4658d8cd5a7da2ae89391deff1b7dba561",
-      "start_date": "2026-03-05T16:01:00+00:00",
-      "name": "Triple Threat Deadline Sat: $2.20 NLHE [3-Max, Turbo],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1.96 + $0.24",
-      "buyin": 1.96,
-      "fee": 0.24,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 2
-    },
-    {
-      "id": "b380e1fe44084a3ea351f7f7db0b0791f16472e2",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "SCOOP Edition: $109 Fenomeno,  $50K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$100 + $9",
-      "buyin": 100,
-      "fee": 9,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 40
-    },
-    {
-      "id": "2f5fd91a389cd60e2b46096ef92b71f8c82aaa2e",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "2-7 Single Draw",
-      "game": "2-7 Single Draw",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ],
-      "players": 4
-    },
-    {
-      "id": "57b435d1037f7f514dde6ec7f9fdf1843b7e5d50",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "$11 Mini Fenomeno,  $10K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$9.80 + $1.20",
-      "buyin": 9.8,
-      "fee": 1.2,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 72
-    },
-    {
-      "id": "1f176b80cf44952be91514e1d0045aec3c3a0865",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "SCOOP 30-L [Daily Cooldown] Sat: $1.10 NLHE [7-Max] [Hyper-Turbo, Deep],  10 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1 + $0.10",
-      "buyin": 1,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 20
-    },
-    {
-      "id": "a69102c28e8003f26b5c75b5f04be08522ea16ca",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "SCOOP 40-M [Sunday Million] Sat: $1.10 NLHE [Hyper-Turbo, Deep],  10 Seats Gtd to $11 Mega Sat",
-      "game": "Hold'em",
-      "buyin_raw": "$1 + $0.10",
-      "buyin": 1,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 59
-    },
-    {
-      "id": "32b1d011a680dddbe3af6d447e01c6524e267ece",
-      "start_date": "2026-03-05T16:02:00+00:00",
-      "name": "Hot $33 Sat: $5.50 NLHE [Hyper-Turbo],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "09a9303c5c257f07cd4b64df0f8f816bf467110e",
-      "start_date": "2026-03-05T16:03:00+00:00",
-      "name": "$4.40 NLO8 [6-Max], $150 Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$3.92 + $0.48",
-      "buyin": 3.92,
-      "fee": 0.48,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "77a59699277f5baa6626d7d927046e69818648ed",
-      "start_date": "2026-03-05T16:03:00+00:00",
-      "name": "$3.30 HORSE, $150 Gtd",
-      "game": "HORSE",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "90b0de1a8fdbf0c2da7e92b73a06b885c3afd7e0",
-      "start_date": "2026-03-05T16:04:00+00:00",
-      "name": "Pot Limit Omaha",
-      "game": "Omaha",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ],
-      "players": 1
-    },
-    {
-      "id": "98968a466c5c88c48eb5c7d37e98dac5a4f3071e",
-      "start_date": "2026-03-05T16:04:00+00:00",
-      "name": "SCOOP Edition: Fenomeno Sat: $7.50 NLHE [8-Max, Hyper-Turbo,1R1A, Deep],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$6.95 + $0.55",
-      "buyin": 6.95,
-      "fee": 0.55,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 4
-    },
-    {
-      "id": "8c1ead388d52cea818a37d3f9fabc6f2d205942c",
-      "start_date": "2026-03-05T16:04:00+00:00",
-      "name": "Hot Hyper KOmania $55 Sat: $5.50 NLO8 [6-Max, Hyper-Turbo, Deep],  3 Seats Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "aaca3f5ec48ca80fb6e1a6f068cc0766963e28d5",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "BSOP São Paulo Sat: $22 NLHE [Turbo, Deep],  2 Seats Gtd to $215 MEGA Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "$20 + $2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
-    {
-      "id": "70557d26bde01c4cc460ba46f1d17ff4f97b5a35",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "BSOP São Paulo Sat: $2.20 NLHE [Turbo, Deep],  1 Seat Gtd to $22 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "$1.96 + $0.24",
-      "buyin": 1.96,
-      "fee": 0.24,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
-    {
-      "id": "00546048cad5b10194b314ca59154a18e4bd78e0",
-      "start_date": "2026-03-05T16:05:00+00:00",
+      "id": "d9a7932e8b29f107b1c23f3f80fa7226a70b27d3",
+      "start_date": "2026-03-05T16:10:00+00:00",
       "name": "Freezeout 100M,  2B Chips Gtd",
       "game": "Hold'em",
       "buyin_raw": "88000000 + 12000000",
@@ -458,12 +24,11 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 2
+      ]
     },
     {
-      "id": "d4bf9cb3a9f874b24d6222c145fcfb085f2f8f90",
-      "start_date": "2026-03-05T16:05:00+00:00",
+      "id": "5835a2d6e4f40e1caf1c8ae7887f94091023270f",
+      "start_date": "2026-03-05T16:10:00+00:00",
       "name": "Mini Freezeout 10M,  500M Chips Gtd",
       "game": "Hold'em",
       "buyin_raw": "8800000 + 1200000",
@@ -479,170 +44,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
-    },
-    {
-      "id": "b44031de6c07d662960decd366898dc3ba26808c",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "Daily Supersonic HR Sat: $5.50 NLHE [Hyper-Turbo, Deep],  4 Seats Gtd to $55 Last Chance Sat",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 10
-    },
-    {
-      "id": "442af43e0f012b040e78105baa1b4a3454b59951",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "Power Path Step 2: $1.50 NLHE [Hyper-Turbo],  55 Seats Gtd to $11 Step 3",
-      "game": "Hold'em",
-      "buyin_raw": "$1.40 + $0.10",
-      "buyin": 1.4,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 27
-    },
-    {
-      "id": "5a9f2ebcdea5264e5074ed0079b1cf3ad9ebce07",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "SCOOP 31-H [Single Re-Entry] Deadline Sat: $55 PLO [6-Max],  3 Seats Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$50 + $5",
-      "buyin": 50,
-      "fee": 5,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 6
-    },
-    {
-      "id": "5ebf3184aab1a3858cd3a38a4934eb112188efa3",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "Hot KOmania $3.30 PLO8 [8-Max, Turbo, Progressive KO],  $400 Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 10
-    },
-    {
-      "id": "972597bd77a74c3e22a4cb08fe7dfc8b4bd6b59b",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "Hot KOmania $33 PLO8 [8-Max, Turbo, Progressive KO],  $1K Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$30 + $3",
-      "buyin": 30,
-      "fee": 3,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 3
-    },
-    {
-      "id": "a55945b99460c915fc142b1bf65d4e3b73632528",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "$1.10 NLHE [6-Max, Hyper-Turbo], $150 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1 + $0.10",
-      "buyin": 1,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 7
-    },
-    {
-      "id": "c625c1f3538e33d9a0818607e6658355f309d02b",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "$27 NLHE [6-Max, Hyper-Turbo], $2K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$25.71 + $1.29",
-      "buyin": 25.71,
-      "fee": 1.29,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 6
-    },
-    {
-      "id": "bc59e30c26dc03a832ae2b448789f5fce37ef5f4",
-      "start_date": "2026-03-05T16:05:00+00:00",
-      "name": "SCOOP 30-H [Daily Cooldown] Last Chance Sat: $215 NLHE [7-Max],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$204.76 + $10.24",
-      "buyin": 204.76,
-      "fee": 10.24,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
-    {
-      "id": "c83c62f1d8ec8082ccbb9cdcbda2e98781133cee",
-      "start_date": "2026-03-05T16:06:00+00:00",
-      "name": "SCOOP 30-M [Daily Cooldown] Sat: $11 NLHE [7-Max] [Hyper-Turbo, Deep],  10 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$10.27 + $0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 23
+      ]
     },
     {
       "id": "4f86191e07782c513171804d20f5657d6b0953a9",
@@ -659,8 +61,24 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 12
+      ]
+    },
+    {
+      "id": "ca144e39b95d9f6a0804d41e6b4e4408f12b4e5c",
+      "start_date": "2026-03-05T16:11:00+00:00",
+      "name": "Triple Threat Deadline Sat: $2.20 NLHE [3-Max, Turbo],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1.96 + $0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
     },
     {
       "id": "fc42e6a9ee46ef774762186dd22f7085c1328c99",
@@ -677,8 +95,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "6847e0cc5a61b64ffa462b7e3b9e9ee4f20ecf39",
@@ -695,8 +112,41 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
+    },
+    {
+      "id": "ea684b04806ac78ebb9f98ecb4fa4059dcfa2c6d",
+      "start_date": "2026-03-05T16:15:00+00:00",
+      "name": "BSOP São Paulo Sat: $22 NLHE [Turbo, Deep],  2 Seats Gtd to $215 MEGA Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "$20 + $2",
+      "buyin": 20,
+      "fee": 2,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "817928e0c0a6e67976946516996429993ddb42ae",
+      "start_date": "2026-03-05T16:15:00+00:00",
+      "name": "BSOP São Paulo Sat: $2.20 NLHE [Turbo, Deep],  1 Seat Gtd to $22 Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "$1.96 + $0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
     },
     {
       "id": "46a4761a01f3cc5fa02d937b76f2186a6ef24a8d",
@@ -716,8 +166,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "599c2c4e761c86595d3f184ef0e3aa03214910bb",
@@ -734,8 +183,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 13
+      ]
     },
     {
       "id": "a57eb0c5b759f3ebdf7bb471718f58d6a18579a3",
@@ -752,8 +200,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "a551be54f203972a95ec9a4f19e80965afc29f97",
@@ -770,8 +217,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 22
+      ]
     },
     {
       "id": "42636dc95dec1e5c6a086bbdb794db73a48414d5",
@@ -788,8 +234,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 29
+      ]
     },
     {
       "id": "6b741dda7747d2ded261bafacbeafc9873179440",
@@ -806,8 +251,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "93eeb15e812fb890a355f9214c0214ab55aeb8ca",
@@ -827,8 +271,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "e88d92308660d89c8a015d6ef3fc3341b1cca53c",
@@ -848,8 +291,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "0533ee1551df17301c554dbe73c0bb11079e484f",
@@ -866,8 +308,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "387723c726b6b41810f02b4d52cd977d13b2d768",
@@ -884,8 +325,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 5
+      ]
     },
     {
       "id": "3939d44f4f2465d6cb36f75c26a1fd72c5e80b38",
@@ -902,8 +342,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 15
+      ]
     },
     {
       "id": "30eecddc17c39ec4d54a9acf0557a63b71ad728a",
@@ -920,8 +359,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "e0a05d328bfec24f2ea650a71a687154e29d0d28",
@@ -938,8 +376,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 12
+      ]
     },
     {
       "id": "a002f31338e37732cd5fbe8e5af3e2ca621bd251",
@@ -959,8 +396,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "9e7b42c4341732adc2e63526a93f85fddfe945bb",
@@ -977,8 +413,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 9
+      ]
     },
     {
       "id": "f0b93abf250b2ef591f33738b5f376aa85edf72d",
@@ -995,8 +430,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "8f8306af36d6b9994a26c713e154734041978a95",
@@ -1013,8 +447,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "54254f08b5214738dd88820aa6b3325d509b4c8d",
@@ -1031,8 +464,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "e7d2bb8af92b04b7f85cedd04f3a9bf701d60a9b",
@@ -1049,8 +481,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "75ff3708adcac358b8c707d84f868bce56f5c610",
@@ -1070,8 +501,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "d050cce01fdf1e8ab54fa6f85f9c9405aa237a34",
@@ -1088,8 +518,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "a94b6634219faa98fa8821f97b359c71a0f68ef3",
@@ -1106,8 +535,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 7
+      ]
     },
     {
       "id": "0f858f6fb04a8dc431da427f31bbfd516d077e16",
@@ -1124,8 +552,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 443
+      ]
     },
     {
       "id": "b02d6545a5662fff0235cd2c8d1c96fde75df920",
@@ -1142,8 +569,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 107
+      ]
     },
     {
       "id": "045302848cf02c888db9ccac61d5940f3ef72528",
@@ -1160,8 +586,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 22
+      ]
     },
     {
       "id": "939f56ee7aa6f63cadd340df8285987e8f7b4c21",
@@ -1181,8 +606,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "e63e0627b826befca8c1f16677a66f591fe4ac0c",
@@ -1199,8 +623,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "ff7ab472aa8b2926f71ff82f6f1b3e1f0afb87ba",
@@ -1217,8 +640,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "6f1c00a83dd3f3369e3939e5352c1a12454b7ead",
@@ -1235,8 +657,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 29
+      ]
     },
     {
       "id": "77ee6e5b3dd40317f78acceb0d49b8e084c956b6",
@@ -1253,8 +674,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 12
+      ]
     },
     {
       "id": "9d8654a58919e10f27cf55ca22d2c37f33c19e9d",
@@ -1274,8 +694,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "94b2456e95b45679b06574ac9614a08d6804a63e",
@@ -1292,8 +711,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "ed47f840c683683b231e80620d0bbb2624bb1051",
@@ -1313,8 +731,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "44f13a6c5bab07d79be93de953cbaabd7c7a4994",
@@ -1334,8 +751,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "63b2db50437d9ffa774a3a6be63f0cd9ca9ddc2c",
@@ -1352,8 +768,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 21
+      ]
     },
     {
       "id": "537be3da64d51bbfacfc96f03229370b415c0ff9",
@@ -1370,8 +785,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 4
+      ]
     },
     {
       "id": "a8407779a3e417473e04592793a3d7560eb4d665",
@@ -1388,8 +802,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 17
+      ]
     },
     {
       "id": "15d235a727aa7647eb0524c1c22c1e703e26669e",
@@ -1406,8 +819,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "791e6ef95d5aac9036701b27588e8e6f55d2bec5",
@@ -1424,8 +836,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "1f4ff35f34cb210d1d116e7ead6a10f2abc047a9",
@@ -1442,8 +853,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "63983a384e9be8b09080ff626c21a26ab2db4e9e",
@@ -1460,8 +870,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "cfdd9c44a4a23a0b5c1ba5e7c0e83149cb05e82a",
@@ -1481,8 +890,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "e4f97578d9c38c85e5db61c0a774ec8fca4d49a7",
@@ -1499,8 +907,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 6
+      ]
     },
     {
       "id": "e62e8f25450c26bd8825af241ece8adf4ee2c1e4",
@@ -1517,8 +924,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 12
+      ]
     },
     {
       "id": "f62777210b2fd36f9f34c2f717656bcb50242860",
@@ -1535,8 +941,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "3b3c82c98a45d1ec5f0dd778b50fe35a8db87cfb",
@@ -1553,8 +958,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "cf34e1676baf2a0e0e2f2a9c04ba5cb792efce6d",
@@ -1571,8 +975,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "8cba71bcb262b70e05b36706ffeebe2bf9195557",
@@ -1592,8 +995,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "5dd88d8994af12103a5efb6156f617dfd3ca16f3",
@@ -1610,8 +1012,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "be129a5dc40fe0cd1b0c5bb7978e139065797ece",
@@ -1628,8 +1029,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 5
+      ]
     },
     {
       "id": "eec65c2e5f94ed82216bebda205388a6884ba597",
@@ -1646,8 +1046,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "9bc4da429586cef2849240af19aeac2955586be3",
@@ -1664,8 +1063,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 7
+      ]
     },
     {
       "id": "ec0d790ae2860734b8e73e0c7e95cd47fa88f61a",
@@ -1682,8 +1080,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "a286dda8ed9c36f216e7ae938bfb3d1d120412c5",
@@ -1703,8 +1100,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "e45b3070d8ddf9b62bc004e3b5ae02b96272c638",
@@ -1724,8 +1120,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "9d37d3d9f2e8464d89a5ad32f1b7d95921c17f11",
@@ -1745,8 +1140,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "bb12428f7dc0d741a3a2a98ae0eec96748dc710a",
@@ -1766,8 +1160,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "f9d509bf954ae7b27fe344f2bb3a71d68296b22f",
@@ -1784,8 +1177,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "73bca49e09403193aa97b7f1c985a916f96326e3",
@@ -1802,8 +1194,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "ac1b2bbfb7415afac4be4312303b0ff283aa3f8e",
@@ -1823,8 +1214,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "4db5f3ed71383bfa0cb432cfd96050dfd53886ad",
@@ -1841,8 +1231,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "9b764b86f56c74ad31ed5ddb8c1f3a2c9337b591",
@@ -1859,8 +1248,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "1b5c51c128fc338107987a5d63514192f3092bfa",
@@ -1880,8 +1268,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "2f9047adc55030e97e14ffb4c50441eaa1a33408",
@@ -1901,8 +1288,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "e6c4ce341acadd5b83861363ec7e12b930f3e3d4",
@@ -1919,8 +1305,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "b10e14318c9cd7a3e4e1fd4e07dd7a4bedc9ab71",
@@ -1937,8 +1322,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "19e923700f08e3449d4628ae7bd27a4a597f7e1e",
@@ -1955,8 +1339,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "c843f47339af640803c1c8f257ff38906ec0a482",
@@ -1973,8 +1356,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "33597521b540c105054a02a3630163e1d2495a15",
@@ -1991,8 +1373,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "a1cd8a118ba2ecd950235de85ff4d4c205e31ded",
@@ -2009,8 +1390,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "47f3f325639986e6354b4fab2f1d52d4d51af8f1",
@@ -2027,8 +1407,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "fae97938e639f56ebb6345827714328ae68504a0",
@@ -2045,8 +1424,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "56ae5cb60fdcb9f010a94c4d24e6ccb7c31ca01b",
@@ -2063,8 +1441,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "49d46d36e319310df49a871e6a409408357a8fb1",
@@ -2081,8 +1458,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "734b417eec4ab34bad0735ae9e864fef79ba7bcf",
@@ -2102,8 +1478,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "b48a1730956161a3243d50be826f56b8d138e848",
@@ -2120,8 +1495,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "dc8df3bfb8ffd0166f8bfbb314abedbf293e9ec9",
@@ -2138,8 +1512,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 10
+      ]
     },
     {
       "id": "5c091054c0c30602b41cd8b83837075b0ecc2036",
@@ -2156,8 +1529,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "14c5b30a382ea6afc4fa74f8fbcbbb84eead2c09",
@@ -2177,8 +1549,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "13b0d9cf7e4e5dfce05e4141fc7cc49eec1e7fef",
@@ -2198,8 +1569,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "981a8f55f77a55e2ad6cc33eb5e9e662138051eb",
@@ -2216,8 +1586,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "1874f03fe1a2b9cae5a3a336ed6dcd85fb5b83db",
@@ -2234,8 +1603,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "7f9268549d8e899bbf77ea439142476de659266a",
@@ -2252,8 +1620,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "34c8112f2bd53085136b138626ef678329da34dd",
@@ -2270,8 +1637,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 12
+      ]
     },
     {
       "id": "9486b4e0efa6f39ffce07a8aedf5cf4789ec5965",
@@ -2291,8 +1657,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "da73f4cd03f1b6e377543fd3638032c18967942f",
@@ -2309,8 +1674,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 10
+      ]
     },
     {
       "id": "630be0a03a9ff9888a6787807b0d21d633f0946c",
@@ -2327,8 +1691,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "ba817fe792e88b56dc96174ab0895a06fa1946f5",
@@ -2345,8 +1708,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "99e639f9a8e76fea8c5949d35fea57fbb029cc2d",
@@ -2366,8 +1728,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "40da7297101a3c3d393c489e11972a56adf548c6",
@@ -2384,8 +1745,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "aff542cab2a4af6ab0c44e5ce5a56a2142d34270",
@@ -2402,8 +1762,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "a589c4642327dda10e6cb3a12d7b89c10f084a06",
@@ -2423,8 +1782,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "ce7e12f5c9ecdcda431899ceabafb67b71808d67",
@@ -2441,8 +1799,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 60
+      ]
     },
     {
       "id": "fdfd59883e2ee4dd7af4b6984f10d990fadebaf4",
@@ -2459,8 +1816,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 27
+      ]
     },
     {
       "id": "3de302fa873af428c8b52ba4bfba98faffb35fec",
@@ -2477,8 +1833,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 13
+      ]
     },
     {
       "id": "5c49e6d8d65a4f0ba1bdd41ee312f1937ecd6aa4",
@@ -2498,8 +1853,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "8ff0e12384182e61750b72a2e1edcc15c058d32e",
@@ -2516,8 +1870,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "b1a5a17ee3999106750e2cdb44957f849be12fb6",
@@ -2534,8 +1887,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 5
+      ]
     },
     {
       "id": "1208e5251e15397fcaffc28aefb93abb4db13d66",
@@ -2552,8 +1904,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "5feba4e1eef297b38f03dca288cd1b09d414bf0f",
@@ -2573,8 +1924,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "ea314e74e213f6e04947eca7d45fa11a7a3b9c94",
@@ -2594,8 +1944,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "902253d1025f051d35b58016523fae682a2785d1",
@@ -2612,8 +1961,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "3d6a4da3d506a31cdb997e66e5b0aedebc4b2e7e",
@@ -2630,8 +1978,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "8c271c8cc920a79b213a43b628124541791e9405",
@@ -2651,8 +1998,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "1afca9d95a69bb25968f75fcd399ba274ddeb9c5",
@@ -2669,8 +2015,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "f1240fffc8c426391796db2a1db23f4f66dc66d2",
@@ -2687,8 +2032,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 4
+      ]
     },
     {
       "id": "bd7811aa684e2b2e540bd3c8be03f8fa09ff5cbf",
@@ -2705,8 +2049,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 9
+      ]
     },
     {
       "id": "29572913bf3cc164d7a73179b3f85575523bc637",
@@ -2723,8 +2066,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "f09af2c6e6ab39b413f02b32532b13f27ada6be3",
@@ -2741,8 +2083,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "4b8938f97e7ab77391260c2de1605baed852d8f4",
@@ -2759,8 +2100,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 4
+      ]
     },
     {
       "id": "a2714aab02b7f49c9b8dd5684bd8860edcb5af72",
@@ -2777,8 +2117,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "2f2bf4ca9f525676ac6f647575780d7a55cd90bb",
@@ -2798,8 +2137,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "b770b5f870654902f63e26b347af7e6fa1ac7350",
@@ -2816,8 +2154,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "6a33715c54ad3f5bb248266c0edabe8a528d32a0",
@@ -2834,8 +2171,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "ac76d79f31d6d462ecee3393e0be194aad089e22",
@@ -2852,8 +2188,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "259f218b489ba03cf9f41f0987df8ab687e76ed4",
@@ -2870,8 +2205,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "54fecde1406ed7852a5056555da3c351cdee8e7f",
@@ -2888,8 +2222,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "5d9b8073e7fb194999fe558c48d976b682ccbf32",
@@ -2909,8 +2242,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "70996d2146f7bdfff30247d3a57607697ecbf213",
@@ -2927,8 +2259,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "dc0dab83b60a2274b6c0357d7273bc56cade7dd4",
@@ -2945,8 +2276,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "5c0ff11cdf3cf1a5c8831604cb297bf77fc3ae63",
@@ -2966,8 +2296,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "c11251429382ec70be04b0cfa6cef8f5f8079d79",
@@ -2984,8 +2313,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "68080c33cfb357666770e9776b153a12d475cea9",
@@ -3002,8 +2330,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "c497f93265a2fee169b3c79afa042dbb8fa7d71f",
@@ -3020,8 +2347,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "88a5d7e9217f90e81224326f2450ff87e8e244a0",
@@ -3038,8 +2364,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "f6b8305150da2e5db5641102a259ef2dc6fdb58c",
@@ -3059,8 +2384,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "d8f48d763b7dd6a0f3f9452e1866eacb2833c18f",
@@ -3080,8 +2404,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "afaf055131126451b1cdfcb61f78c422025fda8f",
@@ -3098,8 +2421,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "3529f24536254c0d2695739cd0764bdd0525e136",
@@ -3116,8 +2438,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "10acf8d113177fdf6659c3a7078bcbe3c394069b",
@@ -3137,8 +2458,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "a4fb4b39782ec5e2621e7933761329e6f5d4f119",
@@ -3155,8 +2475,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 5
+      ]
     },
     {
       "id": "c1ef4cbc783a1462335eda264873faabca196c10",
@@ -3176,8 +2495,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "f9c1260349e358ce429823ef54adbe8ed792e14d",
@@ -3194,8 +2512,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 19
+      ]
     },
     {
       "id": "f666fae56bd3c337fd7894ed58ff5c02032e9b41",
@@ -3212,8 +2529,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 8
+      ]
     },
     {
       "id": "4ab1af5a9adf1c100a34bb19814c277f8a584240",
@@ -3230,8 +2546,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "612931f49dd1102b0d990afae7cc38d65ab5fd42",
@@ -3248,8 +2563,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "364eb1fb4a7f96913662f8d05abea0d27af66f82",
@@ -3266,8 +2580,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "d1502150f351114043d791da83efbdb10a8abbbf",
@@ -3284,8 +2597,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "a8c433f80feaacb68039fa786d1c12e4ded44d26",
@@ -3305,8 +2617,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "360cdc29243bc3116fee7613dfe968af2d9e82df",
@@ -3323,8 +2634,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "77836992e0b3e52d9c6756b8b59d1a7a73318949",
@@ -3344,8 +2654,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "3eee504ab2d22fe0f601ec0a5b193d96dbd93f48",
@@ -3365,8 +2674,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "babba2e3676c96329aceefe50e5d71f438df0f7d",
@@ -3383,8 +2691,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "e1661658257233bb41e99e954131d8966087eb84",
@@ -3401,8 +2708,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "1f21a3122f59a78ae351a3fab8c7135e29fbb7e1",
@@ -3419,8 +2725,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "a1b0c612a8edaa8b30f2f52c25dd572cb9666e09",
@@ -3437,8 +2742,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "2170b720084bcccaba032f6765a5b473f2c33b54",
@@ -3455,8 +2759,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 2
+      ]
     },
     {
       "id": "232be1447ef410f8d6d60147b61dd29b3fb83175",
@@ -3473,8 +2776,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "0d5e5635f671121a13e5da0999ca965ad564d113",
@@ -3491,8 +2793,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "114a87c98f0f794182549d3966f2215d374e5dd9",
@@ -3509,8 +2810,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "83bc04c47b368b1e75cf96752eaf84eb1487cede",
@@ -3527,8 +2827,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "011578cbdf1aa7cf77cf5dff8b10879f4b0dc4f0",
@@ -3545,8 +2844,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "df1f94b80e522774e4d90a1ba5590738212fa0db",
@@ -3563,8 +2861,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "c113744ee0341d58e89290fb1131c3f2bb22dc11",
@@ -3581,8 +2878,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "7e0465a04daa900f0da0d29f43e555b58516b908",
@@ -3602,8 +2898,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "b7617624e41c87c357e3f331fe0eda83e28c1488",
@@ -3620,8 +2915,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 1
+      ]
     },
     {
       "id": "a112c2968acfe3c0b0af5bcbf3be2109feacb9d2",
@@ -3638,8 +2932,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "bce09db85ccea0faaf92ee2c2611683e40b194a3",
@@ -3656,8 +2949,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 5
+      ]
     },
     {
       "id": "4e0a3412d6ce4b287b2fa71c0c905783620effd9",
@@ -3674,8 +2966,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "3e7c822455c391210bd27393473f655bc7f7d68b",
@@ -3695,8 +2986,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "95588de2ff3cd766f204d2dddbbeff313aac1ce8",
@@ -3716,8 +3006,7 @@
         "BE",
         "COM",
         "EU"
-      ],
-      "players": 0
+      ]
     },
     {
       "id": "b77509f40ce8bc3f12183c1300c0c2a49a904a75",
@@ -3734,8 +3023,7 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
     },
     {
       "id": "0d3ef50ccb3a3b206dfa29eec047f02bf08b5fba",
@@ -3752,8 +3040,527 @@
         "EU",
         "BE",
         "COM"
-      ],
-      "players": 3
+      ]
+    },
+    {
+      "id": "628e2251215d1e7ddbccaff3d8cfa5aa9889f5cc",
+      "start_date": "2026-03-05T18:21:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "88000 + 12000",
+      "buyin": 88000,
+      "fee": 12000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "9d518295b4e3aa81aeef4165f52b6913b8d6fda4",
+      "start_date": "2026-03-05T18:25:00+00:00",
+      "name": "Hot 2.5M,  100M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "2200000 + 300000",
+      "buyin": 2200000,
+      "fee": 300000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "04cf195052672fde9d4aa065ba8a403ca8f2c1ed",
+      "start_date": "2026-03-05T18:29:00+00:00",
+      "name": "Limit Stud",
+      "game": "Stud",
+      "buyin_raw": "880000 + 120000",
+      "buyin": 880000,
+      "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "5b9ba55a5f8cc6d4364f780aa1ac9830f7a5ca32",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "Big 50M,  2B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "44000000 + 6000000",
+      "buyin": 44000000,
+      "fee": 6000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "3ca0be372debe5ef5645fba21780d9599f58bfc8",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "$82 Hyper 7 [Progressive KO],  $8K Gtd | SCOOP Start Time!",
+      "game": "Hold'em",
+      "buyin_raw": "$78.10 + $3.90",
+      "buyin": 78.1,
+      "fee": 3.9,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "12622981ef37b0e5b09c7ac8a7364b3d23c9c0d4",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "$7.50 Mini Hyper 7 [Progressive KO],  $3K Gtd | SCOOP Start Time!",
+      "game": "Hold'em",
+      "buyin_raw": "$6.95 + $0.55",
+      "buyin": 6.95,
+      "fee": 0.55,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "b02b8b1ad79083140a78ed55691f0d7fd1442b53",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "Bounty Builder $1.65,  $1.5K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1.47 + $0.18",
+      "buyin": 1.47,
+      "fee": 0.18,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "9b86a46fe7d95ea34075a8b75d54d4ef21110be7",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "Bounty Builder $16.50,  $7K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$14.70 + $1.80",
+      "buyin": 14.7,
+      "fee": 1.8,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "e151309a1ffe26eab456d527ec2d52c95f4556b5",
+      "start_date": "2026-03-05T18:30:00+00:00",
+      "name": "Bounty Builder $82,  $2.5K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$75 + $7",
+      "buyin": 75,
+      "fee": 7,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "dea05ecdfda43c0785e1b6cf26c0c2046d2488a4",
+      "start_date": "2026-03-05T18:31:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "44000 + 6000",
+      "buyin": 44000,
+      "fee": 6000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "e342f38b525f491368f5d0162e52d1cdab6d1cc9",
+      "start_date": "2026-03-05T18:31:00+00:00",
+      "name": "Big $7.50 Sat: $0.55 NLHE [Turbo, Deep],  5 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.49 + $0.06",
+      "buyin": 0.49,
+      "fee": 0.06,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "a00cf98dad4d39dc97bfed36f51808614c096eb4",
+      "start_date": "2026-03-05T18:32:00+00:00",
+      "name": "Bounty Builder $162 Sat: $16.50 NLHE [Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$14.70 + $1.80",
+      "buyin": 14.7,
+      "fee": 1.8,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "cc820bf34a7408ca2fab580fff23f44125612a1b",
+      "start_date": "2026-03-05T18:34:00+00:00",
+      "name": "Pot Limit Omaha",
+      "game": "Omaha",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "8237ad9d0fbf125784c34c1afe2bb1f724bae36d",
+      "start_date": "2026-03-05T18:35:00+00:00",
+      "name": "Hot Hyper $2.20,  $400 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "69651628e032940a05705c48c55931f3d66acfb6",
+      "start_date": "2026-03-05T18:35:00+00:00",
+      "name": "Hot Hyper $27,  $2.5K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$25.71 + $1.29",
+      "buyin": 25.71,
+      "fee": 1.29,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "a6e90f30a76184d0b6fc60e86f3e2f8c88835dbc",
+      "start_date": "2026-03-05T18:35:00+00:00",
+      "name": "Hot Hyper $109,  $4K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$103.81 + $5.19",
+      "buyin": 103.81,
+      "fee": 5.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "e46d6c478ae062bc927208d7c0c3a5f2bd41515a",
+      "start_date": "2026-03-05T18:36:00+00:00",
+      "name": "Hot Hyper $22 Sat: $2.20 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "62c8a27cfe96731f8d46a7e0e9cbe6e74bac07d6",
+      "start_date": "2026-03-05T18:40:00+00:00",
+      "name": "Hot Hyper 5M,  100M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "4400000 + 600000",
+      "buyin": 4400000,
+      "fee": 600000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "ef323bbd0aef622aaa6f745fd8e3d72d84ef92a7",
+      "start_date": "2026-03-05T18:40:00+00:00",
+      "name": "$27 NLHE [Heads-Up, Hyper-Turbo, Zoom, Progressive Total KO], $2K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$25.71 + $1.29",
+      "buyin": 25.71,
+      "fee": 1.29,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "cefcee6b4d3957767908fdc47e1c70d5da21f0f3",
+      "start_date": "2026-03-05T18:40:00+00:00",
+      "name": "Bounty Builder $33 Sat: $2.20 NLHE [Hyper-Turbo,1R1A, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "e4ab81178165c34008464e581ef0865241077398",
+      "start_date": "2026-03-05T18:42:00+00:00",
+      "name": "$7.50 NLO8 [7-Max, Turbo, Progressive KO], $400 Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$6.69 + $0.81",
+      "buyin": 6.69,
+      "fee": 0.81,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "3505f2c2e17f9e6c1ebb9bc5bc98ee42b91b1d89",
+      "start_date": "2026-03-05T18:43:00+00:00",
+      "name": "$3.30 NL 5-Card Draw [Progressive KO], $150 Gtd",
+      "game": "5 Card Draw",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "1b12926ad25e47c77f9626d3fb82c329bb8de4c9",
+      "start_date": "2026-03-05T18:44:00+00:00",
+      "name": "Sunday Storm Sat: $0.33 NLHE [Turbo, Deep],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.29 + $0.04",
+      "buyin": 0.29,
+      "fee": 0.04,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "8faf062f62ba87cc221983b91e2ca79a86a5d768",
+      "start_date": "2026-03-05T18:45:00+00:00",
+      "name": "Limit Five Card Draw",
+      "game": "5 Card Draw",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "226a9eb428a59c9a45b8612da5e6ab7d8ffe13c4",
+      "start_date": "2026-03-05T18:45:00+00:00",
+      "name": "$1.10 NLHE [Progressive KO], $300 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.98 + $0.12",
+      "buyin": 0.98,
+      "fee": 0.12,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "65584872e0716f96656fd67312b1aff43b99cc42",
+      "start_date": "2026-03-05T18:45:00+00:00",
+      "name": "Bounty Adrenaline $27 (Short: 20BB),  $1.5K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$25.71 + $1.29",
+      "buyin": 25.71,
+      "fee": 1.29,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "16bfd0c68b5a5963d04fa632644611395bb28c81",
+      "start_date": "2026-03-05T18:46:00+00:00",
+      "name": "Thursday Thrill [Late Edition] Last Chance  Sat: $27 NLHE [Hyper-Turbo],  1 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$25.71 + $1.29",
+      "buyin": 25.71,
+      "fee": 1.29,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "97f96cc0464e8b972f8b9aa092c35a84a53f16a0",
+      "start_date": "2026-03-05T18:46:00+00:00",
+      "name": "Night Fight Deadline Sat: $5.50 NLHE [Turbo],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$4.90 + $0.60",
+      "buyin": 4.9,
+      "fee": 0.6,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "34bc9f6438aaa1b937f018cd98e5ccaf1a0b7451",
+      "start_date": "2026-03-05T18:47:00+00:00",
+      "name": "No Limit Omaha Hi/Lo",
+      "game": "Omaha",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
     }
   ]
 }

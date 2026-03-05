@@ -1,55 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T21:00:09.498Z",
+    "generated_at": "2026-03-05T21:13:36.497Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
-    "filter": "LOBBY=IT",
-    "count": 2
+    "filter": "LOBBY=IT (current method)",
+    "count": 0
   },
-  "items": [
-    {
-      "id": "8265d614b41ef63a189917d250983f1fec815f59",
-      "start_date": "2026-03-05T16:00:00+00:00",
-      "name": "PM SCOOP 10-H: 2.5M NLHE [8-Max, Destructor, Total KO], 1B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "2200000 + 300000",
-      "buyin": 2200000,
-      "fee": 300000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ],
-      "players": 10
-    },
-    {
-      "id": "a7edc293391568b723e2a99c9e95b6b776cf2022",
-      "start_date": "2026-03-05T16:00:00+00:00",
-      "name": "PM SCOOP 10-L: 250K NLHE [8-Max, Destructor, Total KO], 200M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ],
-      "players": 13
-    }
-  ]
+  "items": []
 }
