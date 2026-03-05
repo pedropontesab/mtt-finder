@@ -192,7 +192,33 @@ async function main() {
   }
 
   const items = extractTournaments(xmlText);
+const list = Array.isArray(candidates) ? candidates : [candidates];
+// --- DEBUG: entender onde/como o lobby está ligado aos torneios ---
+const total = list.length;
+const withLobbyField = list.filter(t => t && t.lobby).length;
 
+const withIT = list.filter(t => {
+  if (!t?.lobby) return false;
+  const arr = Array.isArray(t.lobby) ? t.lobby : [t.lobby];
+  return arr.some(x => String(x?.["@_type"] ?? x?.type ?? "") === "IT");
+}).length;
+
+console.log("DEBUG_TOURNAMENTS_TOTAL:", total);
+console.log("DEBUG_TOURNAMENTS_WITH_LOBBY_FIELD:", withLobbyField);
+console.log("DEBUG_TOURNAMENTS_WITH_IT_IN_LOBBY_FIELD:", withIT);
+
+// mostra exemplo do 1º torneio (keys) e se tem lobby
+if (list[0]) {
+  console.log("DEBUG_FIRST_TOURNAMENT_KEYS:", Object.keys(list[0]).slice(0, 40).join(", "));
+  console.log("DEBUG_FIRST_TOURNAMENT_HAS_LOBBY:", !!list[0].lobby);
+}
+
+// mostra 1 exemplo que tem lobby (se existir)
+const exampleWithLobby = list.find(t => t && t.lobby);
+if (exampleWithLobby) {
+  console.log("DEBUG_EXAMPLE_WITH_LOBBY_KEYS:", Object.keys(exampleWithLobby).slice(0, 40).join(", "));
+  console.log("DEBUG_EXAMPLE_WITH_LOBBY_LOBBY_FIELD:", JSON.stringify(exampleWithLobby.lobby).slice(0, 500));
+}
   if (items.length === 0) {
     throw new Error("Parsed 0 tournaments. Refusing to overwrite JSON with empty data.");
   }
