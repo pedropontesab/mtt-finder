@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T20:34:04.425Z",
+    "generated_at": "2026-03-05T21:00:09.498Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "EUR",
-    "count": 8
+    "count": 3
   },
   "items": [
     {
-      "id": "e1bec4cc0e47f1681e5021ccee6909f9d2347562",
-      "start_date": "2026-03-05T15:30:00+00:00",
-      "name": "EPT Monte-Carlo Main Event Qualifier: €530 NLHE,  1 Package Gtd",
+      "id": "cae85323936cc863cd9b8547ab91602f21a5b437",
+      "start_date": "2026-03-05T15:50:00+00:00",
+      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
       "game": "Hold'em",
-      "buyin_raw": "€500 + €30",
-      "buyin": 500,
-      "fee": 30,
+      "buyin_raw": "€52.38 + €2.62",
+      "buyin": 52.38,
+      "fee": 2.62,
       "currency": "EUR",
       "lobby_types": [
         "EE",
@@ -23,29 +23,11 @@
         "BE",
         "COM"
       ],
-      "players": 11
+      "players": 2
     },
     {
-      "id": "f2e86dd67849355af0420b8dd18c1739f38012ba",
-      "start_date": "2026-03-05T15:35:00+00:00",
-      "name": "PokerStars Open Monte-Carlo Main Event Qualifier: €162 NLHE,  1 Seat & Expenses Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "€150 + €12",
-      "buyin": 150,
-      "fee": 12,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 0
-    },
-    {
-      "id": "8cd71db97229f338450e7b4992b863d104a4db9d",
-      "start_date": "2026-03-05T15:35:00+00:00",
+      "id": "b5f26aae8e6526eb471ee3fd548c0f7df1e26bb9",
+      "start_date": "2026-03-05T15:55:00+00:00",
       "name": "Irish Open Main Event Sat: €22 NLHE [Hyper-Turbo],  2 Seats Gtd to €109 Qualifier",
       "game": "Hold'em",
       "buyin_raw": "€20.95 + €1.05",
@@ -60,78 +42,6 @@
         "COM"
       ],
       "players": 3
-    },
-    {
-      "id": "9f70dec139b2eb45dc40674bd1f73a2874c4cac3",
-      "start_date": "2026-03-05T15:35:00+00:00",
-      "name": "PokerStars Open Monte-Carlo Main Event Sat: €16.50 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd to €162 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€15.50 + €1",
-      "buyin": 15.5,
-      "fee": 1,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 1
-    },
-    {
-      "id": "7f0dfc0241005895cbeb9458b910acf25f15f137",
-      "start_date": "2026-03-05T15:35:00+00:00",
-      "name": "Irish Open Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  4 Seats Gtd to €22 Sat to MEGA Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€2.01 + €0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 4
-    },
-    {
-      "id": "0186a5bfce4f58aae06c26d990ca7c0b61364727",
-      "start_date": "2026-03-05T15:40:00+00:00",
-      "name": "EPT Monte-Carlo Main Event Sat: €55 NLHE [Hyper-Turbo, Deep],  1 Seat Gtd to €530 Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€52.38 + €2.62",
-      "buyin": 52.38,
-      "fee": 2.62,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 1
-    },
-    {
-      "id": "fde11aedd8e86ab68b3ec26732b2ece3388a2ac2",
-      "start_date": "2026-03-05T15:40:00+00:00",
-      "name": "Irish Open Main Event Sat: €22 NLHE [Turbo, Deep] | 4 Seats Gtd to €109 MEGA Qualifier",
-      "game": "Hold'em",
-      "buyin_raw": "€20 + €2",
-      "buyin": 20,
-      "fee": 2,
-      "currency": "EUR",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ],
-      "players": 8
     },
     {
       "id": "fae97938e639f56ebb6345827714328ae68504a0",
