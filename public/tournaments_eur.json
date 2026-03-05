@@ -1,23 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T19:51:37.029Z",
+    "generated_at": "2026-03-05T20:05:19.874Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "EUR",
     "count": 10
   },
   "items": [
-    {
-      "id": "8a28b4f97c8732973289ab3fd91a4af5e09fd7f4",
-      "start_date": "2026-03-05T14:40:00+00:00",
-      "name": "Irish Open Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd to €22 Sat",
-      "game": "Hold'em",
-      "buyin_raw": "€2.01 + €0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "EUR",
-      "players": 3
-    },
     {
       "id": "e42a283aa9c6790b88c7c75a30cf7294e911501f",
       "start_date": "2026-03-05T15:05:00+00:00",
@@ -38,7 +27,7 @@
       "buyin": 52.38,
       "fee": 2.62,
       "currency": "EUR",
-      "players": 0
+      "players": 1
     },
     {
       "id": "6eea9e44d1ded54e2c4c101ab1a7119577611a41",
@@ -93,7 +82,7 @@
       "buyin": 2.01,
       "fee": 0.19,
       "currency": "EUR",
-      "players": 2
+      "players": 3
     },
     {
       "id": "0186a5bfce4f58aae06c26d990ca7c0b61364727",
@@ -104,11 +93,22 @@
       "buyin": 52.38,
       "fee": 2.62,
       "currency": "EUR",
-      "players": 0
+      "players": 1
     },
     {
       "id": "fde11aedd8e86ab68b3ec26732b2ece3388a2ac2",
       "start_date": "2026-03-05T15:40:00+00:00",
+      "name": "Irish Open Main Event Sat: €22 NLHE [Turbo, Deep] | 4 Seats Gtd to €109 MEGA Qualifier",
+      "game": "Hold'em",
+      "buyin_raw": "€20 + €2",
+      "buyin": 20,
+      "fee": 2,
+      "currency": "EUR",
+      "players": 0
+    },
+    {
+      "id": "fae97938e639f56ebb6345827714328ae68504a0",
+      "start_date": "2026-03-05T17:10:00+00:00",
       "name": "Irish Open Main Event Sat: €22 NLHE [Turbo, Deep] | 4 Seats Gtd to €109 MEGA Qualifier",
       "game": "Hold'em",
       "buyin_raw": "€20 + €2",
