@@ -4,11 +4,13 @@ import crypto from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 
 const OUT_PATH = path.join("public", "tournaments.json");
-const EUR_PATH = path.join("public", "tournaments_eur.json");
+const IT_PATH = path.join("public", "tournaments_it.json");
+const EUR_PATH = path.join("public", "tournaments_eur.json"); // opcional
 
 const UA = "mtt-finder/0.1 (public-data; github-actions)";
 
-// Tenta .it (pode falhar/404), depois cai para .com (que redireciona p/ .bet)
+// .it costuma falhar/404, mas tentamos primeiro mesmo assim.
+// Depois cai no .com (que redireciona p/ .bet e funciona).
 const URLS = [
   "https://www.pokerstars.it/datafeed_global/tournaments/all.xml",
   "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
@@ -29,7 +31,6 @@ async function fetchText(url) {
 
   const text = await res.text();
 
-  // Se falhar, jogue erro com status e final url (útil p/ debug)
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} for ${url} (final: ${res.url})`);
   }
@@ -59,8 +60,7 @@ function parseMoney(raw) {
   };
 }
 
-// Coleta tipos de lobby se existir algo como <lobby type="COM"> etc.
-// (No feed atual pode não existir — mas logamos se aparecer)
+// Debug: lobbies presentes no XML (você já viu IT aqui)
 function collectLobbyTypesDeep(obj) {
   const types = new Set();
   const stack = [obj];
@@ -86,7 +86,6 @@ function collectLobbyTypesDeep(obj) {
   return [...types].sort();
 }
 
-// À prova de estrutura: acha qualquer lugar que tenha chave "tournament"
 function findTournamentListDeep(obj) {
   const stack = [obj];
   while (stack.length) {
@@ -106,21 +105,17 @@ function extractTournaments(xmlText) {
   const parser = new XMLParser({
     ignoreAttributes: false,
     attributeNamePrefix: "@_",
-    // força "tournament" virar array quando possível
-    isArray: (name) => name === "tournament",
+    isArray: (name) => name === "tournament" || name === "lobby",
   });
 
   const parsed = parser.parse(xmlText);
 
-  // Debug: ajuda a entender a estrutura do XML
   const topKeys = parsed && typeof parsed === "object" ? Object.keys(parsed) : [];
   console.log("TOP_KEYS:", topKeys.join(", "));
 
-  // Debug: lobbies (se existirem no XML)
   const lobbyTypes = collectLobbyTypesDeep(parsed);
   console.log("LOBBY_TYPES:", lobbyTypes.length ? lobbyTypes.join(", ") : "(none)");
 
-  // Estruturas comuns
   let candidates =
     parsed?.selected_tournaments?.tournament ??
     parsed?.tournaments?.tournament ??
@@ -136,6 +131,16 @@ function extractTournaments(xmlText) {
     const name = t?.name;
     if (!start || !name) continue;
 
+    // lobby types do torneio
+    const lobbyTypesForT = new Set();
+    if (t?.lobby) {
+      const l = Array.isArray(t.lobby) ? t.lobby : [t.lobby];
+      for (const x of l) {
+        const tp = x?.["@_type"] ?? x?.type ?? null;
+        if (tp) lobbyTypesForT.add(String(tp));
+      }
+    }
+
     const money = parseMoney(t?.buy_in_fee);
     const id = sha1(`${start}|${name}`);
 
@@ -148,11 +153,11 @@ function extractTournaments(xmlText) {
       buyin: money.buyin,
       fee: money.fee,
       currency: money.currency,
+      lobby_types: [...lobbyTypesForT],
       players: t?.["@_players"] ? Number(t["@_players"]) : (t?.players ? Number(t.players) : null),
     });
   }
 
-  // ordena por data
   items.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
   return items.slice(0, 5000);
 }
@@ -194,6 +199,7 @@ async function main() {
 
   const generatedAt = new Date().toISOString();
 
+  // arquivo geral (opcional, mas bom p/ debug)
   const payload = {
     meta: {
       generated_at: generatedAt,
@@ -204,6 +210,20 @@ async function main() {
     items,
   };
 
+  // SOMENTE IT (isso é o principal!)
+  const itItems = items.filter((t) => (t.lobby_types || []).includes("IT"));
+  const itPayload = {
+    meta: {
+      generated_at: generatedAt,
+      used_url: usedUrl,
+      final_url: finalUrl,
+      filter: "LOBBY=IT",
+      count: itItems.length,
+    },
+    items: itItems,
+  };
+
+  // Opcional: EUR (mantive pra você, mas o site pode usar só IT)
   const eurItems = items.filter((t) => t.currency === "EUR" || String(t.buyin_raw || "").includes("€"));
   const eurPayload = {
     meta: {
@@ -218,9 +238,11 @@ async function main() {
 
   fs.mkdirSync("public", { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
+  fs.writeFileSync(IT_PATH, JSON.stringify(itPayload, null, 2), "utf-8");
   fs.writeFileSync(EUR_PATH, JSON.stringify(eurPayload, null, 2), "utf-8");
 
   console.log(`OK: ${items.length} tournaments -> ${OUT_PATH}`);
+  console.log(`OK: ${itItems.length} IT tournaments -> ${IT_PATH}`);
   console.log(`OK: ${eurItems.length} EUR tournaments -> ${EUR_PATH}`);
 }
 
