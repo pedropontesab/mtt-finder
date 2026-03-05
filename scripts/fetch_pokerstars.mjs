@@ -2,30 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
-function collectLobbyTypesDeep(obj) {
-  const types = new Set();
-  const stack = [obj];
 
-  while (stack.length) {
-    const cur = stack.pop();
-    if (!cur || typeof cur !== "object") continue;
-
-    if (cur.lobby) {
-      const l = cur.lobby;
-      const arr = Array.isArray(l) ? l : [l];
-      for (const x of arr) {
-        const t = x?.["@_type"] ?? x?.type ?? null;
-        if (t) types.add(String(t));
-      }
-    }
-
-    for (const v of Object.values(cur)) {
-      if (v && typeof v === "object") stack.push(v);
-    }
-  }
-
-  return [...types].sort();
-}
 const OUT_PATH = path.join("public", "tournaments.json");
 const UA = "mtt-finder/0.1 (public-data; github-actions)";
 
