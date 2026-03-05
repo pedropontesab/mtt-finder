@@ -51,6 +51,12 @@ function findTournamentListDeep(obj) {
     const cur = stack.pop();
     if (!cur || typeof cur !== "object") continue;
 
+    // Se já for uma lista de torneios
+    if (Array.isArray(cur) && cur.length && cur[0]?.start_date && cur[0]?.name) {
+      return cur;
+    }
+
+    // Caso clássico: algum nó tem a chave "tournament"
     if (cur.tournament) return cur.tournament;
 
     for (const v of Object.values(cur)) {
@@ -61,8 +67,18 @@ function findTournamentListDeep(obj) {
 }
 
 function extractTournaments(xmlText) {
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: "@_",
+    // isso ajuda quando tem nós únicos e às vezes arrays:
+    isArray: (name, jpath, isLeafNode, isAttribute) => name === "tournament",
+  });
+
   const parsed = parser.parse(xmlText);
+
+  // Debug: mostrar as chaves do topo (uma vez)
+  const topKeys = parsed && typeof parsed === "object" ? Object.keys(parsed) : [];
+  console.log("TOP_KEYS:", topKeys.join(", "));
 
   let candidates =
     parsed?.selected_tournaments?.tournament ??
