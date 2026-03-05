@@ -217,21 +217,18 @@ async function main() {
   const buy = String(t.buyin_raw || "").toLowerCase();
   const name = String(t.name || "").toLowerCase();
 
-  // regras para detectar "dinheiro fictício"
+  // Só considera "play money" quando estiver explícito (sem pegar "players")
   const isPlayMoney =
-    buy.includes("play") ||
     buy.includes("play money") ||
-    buy.includes("fict") ||
-    name.includes("play") ||
-    name.includes("play money");
+    buy.includes("play chips") ||
+    name.includes("play money") ||
+    name.includes("play chips");
 
-  // outra heurística: sem moeda e sem buy-in numérico (muitos play money vêm assim)
-  const looksLikeNoRealMoney =
-    (t.currency == null || t.currency === "") &&
-    (t.buyin == null || Number.isNaN(t.buyin)) &&
-    buy === "";
+  // Outra heurística leve: se vier claramente "play" como palavra isolada
+  // (ex: "Play Money Tournament"). Evita pegar "players".
+  const hasPlayWord = /\bplay\b/.test(name) || /\bplay\b/.test(buy);
 
-  return isIT && !isPlayMoney && !looksLikeNoRealMoney;
+  return isIT && !(isPlayMoney || hasPlayWord);
 });
   const itPayload = {
     meta: {
