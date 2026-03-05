@@ -125,8 +125,7 @@ function withinHours(dateStr, hours) {
 }
 
 async function load() {
-  const res = await fetch("./public/tournaments.json", { cache: "no-store" });
-  const data = await res.json();
+const res = await fetch("./public/tournaments_eur.json", { cache: "no-store" });  const data = await res.json();
   META = data.meta || {};
   ALL = data.items || data || [];
 
