@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-09T18:06:35.101Z",
+    "generated_at": "2026-03-09T19:58:47.519Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "a128c31a7eac16325aeb474e275631750cd4dbf8",
+      "start_date": "2026-03-09T16:00:00+00:00",
+      "name": "PM SCOOP 19-H: 100M NLHE [8-Max, Progressive KO, Freezeout], 2B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "88000000 + 12000000",
+      "buyin": 88000000,
+      "fee": 12000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "8f143b25cd33e2bc3c694c786755390b9c46ac72",
+      "start_date": "2026-03-09T16:00:00+00:00",
+      "name": "PM SCOOP 19-L: 10M NLHE [8-Max, Progressive KO, Freezeout], 200M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "8800000 + 1200000",
+      "buyin": 8800000,
+      "fee": 1200000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
