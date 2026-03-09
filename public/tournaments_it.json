@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-09T21:04:42.210Z",
+    "generated_at": "2026-03-09T22:02:41.592Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "2863d8e45e97464a635f44ec517c860c0cf52abf",
+      "start_date": "2026-03-09T20:30:00+00:00",
+      "name": "PM SCOOP 20-H: 1M 5-Card PLO [6-Max, Turbo]",
+      "game": "5 Card Omaha",
+      "buyin_raw": "880000 + 120000",
+      "buyin": 880000,
+      "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "a125652e444cd81d1ff96d9426ffa988fe7fede1",
+      "start_date": "2026-03-09T20:30:00+00:00",
+      "name": "PM SCOOP 20-L: 100K 5-Card PLO [6-Max, Turbo]",
+      "game": "5 Card Omaha",
+      "buyin_raw": "88000 + 12000",
+      "buyin": 88000,
+      "fee": 12000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
