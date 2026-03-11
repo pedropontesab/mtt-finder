@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T21:02:55.421Z",
+    "generated_at": "2026-03-11T22:02:46.013Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "18d56b2c9d97e784f6644a69ea98c7f5be83da96",
+      "start_date": "2026-03-11T20:30:00+00:00",
+      "name": "PM SCOOP 24-H: 5M NLHE [8-Max, Turbo, Progressive KO], 1.5B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "4400000 + 600000",
+      "buyin": 4400000,
+      "fee": 600000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "7c282292fdc34873c35d3e54f519b76d72525068",
+      "start_date": "2026-03-11T20:30:00+00:00",
+      "name": "PM SCOOP 24-L: 500K NLHE [8-Max, Turbo, Progressive KO], 200M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "440000 + 60000",
+      "buyin": 440000,
+      "fee": 60000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
