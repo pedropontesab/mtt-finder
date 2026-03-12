@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-12T21:06:20.490Z",
+    "generated_at": "2026-03-12T22:02:23.773Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "e7d318bf899495c1e8ea52d5975f3707c9e803cb",
+      "start_date": "2026-03-12T20:30:00+00:00",
+      "name": "PM SCOOP 26-H: 2.5B NLHE [8-Max, Thursday Thrill, Progressive KO], 75B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "2200000000 + 300000000",
+      "buyin": 2200000000,
+      "fee": 300000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "ecc837d5c8c132115c48bcbdf2509807da04534e",
+      "start_date": "2026-03-12T20:30:00+00:00",
+      "name": "PM SCOOP 26-L: 250M NLHE [8-Max, Thursday Thrill, Progressive KO], 15B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "220000000 + 30000000",
+      "buyin": 220000000,
+      "fee": 30000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
