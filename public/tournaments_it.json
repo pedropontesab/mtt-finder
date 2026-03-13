@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T18:03:41.094Z",
+    "generated_at": "2026-03-13T19:52:54.899Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "87528ff3f1dc3bce518cbf890ae0d0bffd8a1494",
+      "start_date": "2026-03-13T16:00:00+00:00",
+      "name": "PM SCOOP 27-H: 1M Razz [6-Max]",
+      "game": "Razz",
+      "buyin_raw": "880000 + 120000",
+      "buyin": 880000,
+      "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "e943a3cb99dc3076d9024894c2b00f32e45ebf8e",
+      "start_date": "2026-03-13T16:00:00+00:00",
+      "name": "PM SCOOP 27-L: 100K Razz [6-Max]",
+      "game": "Razz",
+      "buyin_raw": "88000 + 12000",
+      "buyin": 88000,
+      "fee": 12000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
