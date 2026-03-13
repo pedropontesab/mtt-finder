@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T21:06:43.838Z",
+    "generated_at": "2026-03-13T22:04:10.219Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "bb909c542897a017db8ca046b89dc49d719a43ee",
+      "start_date": "2026-03-13T20:30:00+00:00",
+      "name": "PM SCOOP 28-H: 5M PLO8 [6-Max]",
+      "game": "Omaha",
+      "buyin_raw": "4400000 + 600000",
+      "buyin": 4400000,
+      "fee": 600000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "36d3d213bbbcfb4306a253f6ede0c7677b071c95",
+      "start_date": "2026-03-13T20:30:00+00:00",
+      "name": "PM SCOOP 28-L: 500K PLO8 [6-Max]",
+      "game": "Omaha",
+      "buyin_raw": "440000 + 60000",
+      "buyin": 440000,
+      "fee": 60000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
