@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-15T20:59:07.617Z",
+    "generated_at": "2026-03-15T21:54:41.363Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 2
+    "count": 4
   },
   "items": [
     {
@@ -36,6 +36,48 @@
       "buyin_raw": "880000 + 120000",
       "buyin": 880000,
       "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "d9ef06736ead6d6d8bc6f22d5924114077ec38e2",
+      "start_date": "2026-03-15T20:30:00+00:00",
+      "name": "PM SCOOP 33-H: 5B NLHE [8-Max, Progressive KO, Sunday Super High Roller], 100B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "4400000000 + 600000000",
+      "buyin": 4400000000,
+      "fee": 600000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "13fc1849863af60067eb71cc3fb17e905c5cef42",
+      "start_date": "2026-03-15T20:30:00+00:00",
+      "name": "PM SCOOP 33-L: 50M NLHE [8-Max, Sunday Mini Super High Roller], 5B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "44000000 + 6000000",
+      "buyin": 44000000,
+      "fee": 6000000,
       "currency": null,
       "lobby_types": [
         "EE",
