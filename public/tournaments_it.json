@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-16T16:18:04.822Z",
+    "generated_at": "2026-03-16T19:44:40.007Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "63477cce3789dc5c5741becbc806fc58f6bfa772",
+      "start_date": "2026-03-16T16:00:00+00:00",
+      "name": "PM SCOOP 34-H: 100M NLHE [8-Max, Progressive KO, Freezeout], 3B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "88000000 + 12000000",
+      "buyin": 88000000,
+      "fee": 12000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "ba678fb4865f6c832b477765256552d9139e4c41",
+      "start_date": "2026-03-16T16:00:00+00:00",
+      "name": "PM SCOOP 34-L: 10M NLHE [8-Max, Progressive KO, Freezeout], 1B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "8800000 + 1200000",
+      "buyin": 8800000,
+      "fee": 1200000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
