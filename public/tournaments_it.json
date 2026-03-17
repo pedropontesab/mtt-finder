@@ -1,54 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-17T20:05:29.579Z",
+    "generated_at": "2026-03-17T22:04:58.118Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 8
+    "count": 14
   },
   "items": [
-    {
-      "id": "e3331238ed27148119b8fb5d377307ae8ea4ae0e",
-      "start_date": "2026-03-17T16:00:00+00:00",
-      "name": "PM SCOOP 36-H: 5M NLHE [Deep Stack], 1.5B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "4400000 + 600000",
-      "buyin": 4400000,
-      "fee": 600000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ]
-    },
-    {
-      "id": "3d8a30f4a59e67418cf5f43dfbaea7e66dbb71c4",
-      "start_date": "2026-03-17T16:00:00+00:00",
-      "name": "PM SCOOP 36-L: 500K NLHE [Deep Stack], 200M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "440000 + 60000",
-      "buyin": 440000,
-      "fee": 60000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU",
-        "IT"
-      ]
-    },
     {
       "id": "f62f1cfe32e71b59e03252588db0d99f2d921b7d",
       "start_date": "2026-03-17T18:05:00+00:00",
@@ -162,6 +120,174 @@
       "buyin_raw": "174000 + 26000",
       "buyin": 174000,
       "fee": 26000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "7cad9a4d9050305eeccb2a6f196d079b8007241d",
+      "start_date": "2026-03-17T18:32:00+00:00",
+      "name": "Play Money Limit Badugi (50K)",
+      "game": "Badugi",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "7a765d1bc3cf2ecbbced3431f7a653593ad40e88",
+      "start_date": "2026-03-17T18:33:00+00:00",
+      "name": "Play Money Stud Hi/Lo (50K)",
+      "game": "Stud",
+      "buyin_raw": "43500 + 6500",
+      "buyin": 43500,
+      "fee": 6500,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "acd2a25840cac26cdeebf1fbf880dc88765c95d3",
+      "start_date": "2026-03-17T18:34:00+00:00",
+      "name": "Play Money NL Omaha Hi/Lo (100K)",
+      "game": "Omaha",
+      "buyin_raw": "87000 + 13000",
+      "buyin": 87000,
+      "fee": 13000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "70bac33a27b26e6c81f65b812bdb02d022ba18e0",
+      "start_date": "2026-03-17T18:35:00+00:00",
+      "name": "Play Money No Limit Hold’em 6-Max (20K)",
+      "game": "Hold'em",
+      "buyin_raw": "17500 + 2500",
+      "buyin": 17500,
+      "fee": 2500,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "f939c4405de0833db073cd26ad37aba83502dedb",
+      "start_date": "2026-03-17T18:52:00+00:00",
+      "name": "Play Money 2-7 Single Draw (50K)",
+      "game": "2-7 Single Draw",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "080bff6a481add524da0b0aa266d890de301a2df",
+      "start_date": "2026-03-17T18:54:00+00:00",
+      "name": "Play Money No Limit Omaha Hi/Lo (500K)",
+      "game": "Omaha",
+      "buyin_raw": "450000 + 50000",
+      "buyin": 450000,
+      "fee": 50000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "d9dd04ca69215a35464f045553acd94c238affe0",
+      "start_date": "2026-03-17T18:55:00+00:00",
+      "name": "Play Money No Limit Hold’em Deepstack (50K)",
+      "game": "Hold'em",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "b04756ff1cf4fa41a50658285c56660ad5e4e454",
+      "start_date": "2026-03-17T18:57:00+00:00",
+      "name": "Play Money No Limit Hold'em 6-Max (50K)",
+      "game": "Hold'em",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
       "currency": null,
       "lobby_types": [
         "EE",
