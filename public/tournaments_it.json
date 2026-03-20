@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-20T18:05:03.642Z",
+    "generated_at": "2026-03-20T19:54:17.127Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "81ecd831467e1edbcabd42fb5cf681dc6fca5518",
+      "start_date": "2026-03-20T16:00:00+00:00",
+      "name": "PM SCOOP 42-H: 2.5M NL 2-7 Single Draw [7-Max, Progressive KO]",
+      "game": "2-7 Single Draw",
+      "buyin_raw": "2200000 + 300000",
+      "buyin": 2200000,
+      "fee": 300000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "38e82cffa04f9a06c2963d4b5c6b072f2240e2c9",
+      "start_date": "2026-03-20T16:00:00+00:00",
+      "name": "PM SCOOP 42-L: 250K NL 2-7 Single Draw [7-Max, Progressive KO]",
+      "game": "2-7 Single Draw",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
