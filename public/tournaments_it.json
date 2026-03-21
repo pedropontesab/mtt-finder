@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-21T20:55:36.116Z",
+    "generated_at": "2026-03-21T21:50:04.269Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "557a6ed4d525786a87b6f7d93046fc0a7d0de165",
+      "start_date": "2026-03-21T20:30:00+00:00",
+      "name": "PM SCOOP 45-H: 10B NLHE [8-Max, Progressive KO, MEGA High Roller], 100B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "8800000000 + 1200000000",
+      "buyin": 8800000000,
+      "fee": 1200000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "a6311015682b9fef0af30016b661a5eb819e5fd3",
+      "start_date": "2026-03-21T20:30:00+00:00",
+      "name": "PM SCOOP 45-L: 1B NLHE [8-Max, Mini MEGA High Roller], 40B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "880000000 + 120000000",
+      "buyin": 880000000,
+      "fee": 120000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
