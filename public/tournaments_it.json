@@ -1,10 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-03-23T15:40:44.176Z",
+    "generated_at": "2026-03-23T18:11:41.915Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 0
+    "count": 2
   },
-  "items": []
+  "items": [
+    {
+      "id": "65b8b559b1d66aab0b6b666a36b914b4b819c25a",
+      "start_date": "2026-03-23T15:00:00+00:00",
+      "name": "PM SCOOP 49-H: 2.5M NLHE [8-Max, Mystery Bounty], 750M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "2200000 + 300000",
+      "buyin": 2200000,
+      "fee": 300000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    },
+    {
+      "id": "788e6c5ce5845b5aa476982bc178d2a251ae9d4c",
+      "start_date": "2026-03-23T15:00:00+00:00",
+      "name": "PM SCOOP 49-L: 250K NLHE [8-Max, Mystery Bounty], 200M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU",
+        "IT"
+      ]
+    }
+  ]
 }
