@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T18:57:47.017Z",
+    "generated_at": "2026-04-21T20:01:08.057Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "filter": "LOBBY=IT (current method)",
-    "count": 10
+    "count": 14
   },
   "items": [
     {
@@ -204,6 +204,90 @@
       "buyin_raw": "17500 + 2500",
       "buyin": 17500,
       "fee": 2500,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "be688f2c8a3fc8e53124f5a9e1342b1466e08d97",
+      "start_date": "2026-04-21T17:52:00+00:00",
+      "name": "Play Money 2-7 Single Draw (50K)",
+      "game": "2-7 Single Draw",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "c2e5ad3a3c20758d9da93a8b30e2de06a278edd7",
+      "start_date": "2026-04-21T17:54:00+00:00",
+      "name": "Play Money No Limit Omaha Hi/Lo (500K)",
+      "game": "Omaha",
+      "buyin_raw": "450000 + 50000",
+      "buyin": 450000,
+      "fee": 50000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "4cb84586e15a624b9ec9f33979406b94768af50e",
+      "start_date": "2026-04-21T17:55:00+00:00",
+      "name": "Play Money No Limit Hold’em Deepstack (50K)",
+      "game": "Hold'em",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "EU",
+        "NET",
+        "ES",
+        "IT",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "d012a6776fefb48103e4466d2dd1a55ceea96903",
+      "start_date": "2026-04-21T17:57:00+00:00",
+      "name": "Play Money No Limit Hold'em 6-Max (50K)",
+      "game": "Hold'em",
+      "buyin_raw": "45000 + 5000",
+      "buyin": 45000,
+      "fee": 5000,
       "currency": null,
       "lobby_types": [
         "EE",
