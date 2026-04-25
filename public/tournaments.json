@@ -1,820 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T10:35:54.915Z",
+    "generated_at": "2026-04-25T11:32:34.597Z",
     "used_url": "https://www.pokerstars.com/datafeed_global/tournaments/all.xml",
     "final_url": "https://www.pokerstars.bet/datafeed_global/tournaments/all.xml",
     "count": 200
   },
   "items": [
-    {
-      "id": "3c6098626de8f9f3fb3965985df3137114e9a7e5",
-      "start_date": "2026-04-25T06:17:00+00:00",
-      "name": "No Limit Omaha Hi/Lo",
-      "game": "Omaha",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "86d48f04d49d61c6555146740b2b4b94328372e0",
-      "start_date": "2026-04-25T06:18:00+00:00",
-      "name": "Bounty Builder $33 Sat: $3.30 NLHE [Turbo, Deep],  5 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "4fcc71893139e7ad800cad7a8ab980ce62e6cbe4",
-      "start_date": "2026-04-25T06:19:00+00:00",
-      "name": "Hot $55 Sat: $5.50 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "50d1a432f80ef4f2dc8bb44e6634b6291d381617",
-      "start_date": "2026-04-25T06:19:00+00:00",
-      "name": "Bounty Adrenaline $11 Sat: $2.20 NLHE [Hyper-Turbo],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$2.01 + $0.19",
-      "buyin": 2.01,
-      "fee": 0.19,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "b33f978a6fe5926c013d3544700fbe32aaa0adab",
-      "start_date": "2026-04-25T06:21:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "88000 + 12000",
-      "buyin": 88000,
-      "fee": 12000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "7a45ed5f61ea7dc84bd3dca0c1e67c515e599e99",
-      "start_date": "2026-04-25T06:25:00+00:00",
-      "name": "Hot 250K,  10M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "65d85701b0a430c0de9683051e45d826a5e31d4d",
-      "start_date": "2026-04-25T06:25:00+00:00",
-      "name": "$5.50 NLHE, $200 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$4.90 + $0.60",
-      "buyin": 4.9,
-      "fee": 0.6,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "4c1cb9e7e1b0d6ec8aae3e05b59c844f42e196f2",
-      "start_date": "2026-04-25T06:26:00+00:00",
-      "name": "Pot Limit Courchevel",
-      "game": "Courchevel",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "6c34cdab5611f71689362dbf1535b91bfa6b9059",
-      "start_date": "2026-04-25T06:29:00+00:00",
-      "name": "Limit Stud",
-      "game": "Stud",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "8c527f1b8bdf8d7d6b82c174d8a44c3a8593ff00",
-      "start_date": "2026-04-25T06:30:00+00:00",
-      "name": "NLO8 Major 5M [8-Max, Progressive KO],  150M Chips Gtd",
-      "game": "Omaha",
-      "buyin_raw": "4400000 + 600000",
-      "buyin": 4400000,
-      "fee": 600000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "e39716467ac4d22fb5fe8ab611423604a3542abb",
-      "start_date": "2026-04-25T06:30:00+00:00",
-      "name": "Bounty Builder $4.40 [Saturday Special],  $2.5K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$3.92 + $0.48",
-      "buyin": 3.92,
-      "fee": 0.48,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "200eda805de08ee4ed1620e04a5efa2c3c1d750b",
-      "start_date": "2026-04-25T06:30:00+00:00",
-      "name": "Bounty Builder $44 [Saturday Special],  $2.5K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$40 + $4",
-      "buyin": 40,
-      "fee": 4,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "f04bc2f3df28a1f0aea23639b510796978ff546a",
-      "start_date": "2026-04-25T06:31:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "44000 + 6000",
-      "buyin": 44000,
-      "fee": 6000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "7b20e3425689a8177587c92fd244e183253ec5b9",
-      "start_date": "2026-04-25T06:32:00+00:00",
-      "name": "Daily Kickoff Deadline Sat: $11 NLHE [Turbo],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$9.80 + $1.20",
-      "buyin": 9.8,
-      "fee": 1.2,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "9834fc79447b888a983f281865660d738b0088e4",
-      "start_date": "2026-04-25T06:32:00+00:00",
-      "name": "Bounty Builder HR Sat: $0.11 NLHE [Hyper-Turbo, Hyper-Freebuy],  20 Seats Gtd to $3.30 Sat",
-      "game": "Hold'em",
-      "buyin_raw": "$0 + $0",
-      "buyin": 0,
-      "fee": 0,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "COM"
-      ]
-    },
-    {
-      "id": "109c36bf95fe885fbf398283fc03c1eb42c1c63e",
-      "start_date": "2026-04-25T06:32:00+00:00",
-      "name": "Bounty Builder $7.50 Sat: $1.10 NLHE [Turbo, Deep],  15 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$0.98 + $0.12",
-      "buyin": 0.98,
-      "fee": 0.12,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "cc461a90b5b97ca9510b5b178670eb90ef68a09c",
-      "start_date": "2026-04-25T06:33:00+00:00",
-      "name": "$11 NLHE [Heads-Up, Hyper-Turbo, Zoom, Progressive Total KO], $1.5K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$10.27 + $0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "f66e9e7425945f46867fd02abe82da2e6c4840a0",
-      "start_date": "2026-04-25T06:34:00+00:00",
-      "name": "Pot Limit Omaha",
-      "game": "Omaha",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "dd1d8ffe69d7738607c6320bf366345140082fa3",
-      "start_date": "2026-04-25T06:35:00+00:00",
-      "name": "Hot Hyper $5.50 [Progressive KO],  $500 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "a7a4f5cd84069db1ba3126f4c699bebeb6010f22",
-      "start_date": "2026-04-25T06:35:00+00:00",
-      "name": "Hot Hyper $27,  $1K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$25.71 + $1.29",
-      "buyin": 25.71,
-      "fee": 1.29,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "04c1475db5b28b47792747faf075e01b645f1d00",
-      "start_date": "2026-04-25T06:36:00+00:00",
-      "name": "Hot Hyper $11 Sat: $1.10 NLHE [Hyper-Turbo, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1 + $0.10",
-      "buyin": 1,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "ffb7c1669b5aef197ec75c929daff0df7f99e458",
-      "start_date": "2026-04-25T06:37:00+00:00",
-      "name": "Bounty Builder $75 Sat: $4.40 NLHE [Hyper-Turbo,1R1A, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$4.03 + $0.37",
-      "buyin": 4.03,
-      "fee": 0.37,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "e927130fa31fd92dc67dfa9418ab6c9405375724",
-      "start_date": "2026-04-25T06:39:00+00:00",
-      "name": "$1.10 PLO8 [Turbo], $50 Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$0.98 + $0.12",
-      "buyin": 0.98,
-      "fee": 0.12,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "ac2b2414d12b6eddc89f1b8a8196ddedc344431f",
-      "start_date": "2026-04-25T06:40:00+00:00",
-      "name": "Hot Hyper 50K,  3M Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "44000 + 6000",
-      "buyin": 44000,
-      "fee": 6000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "f6146ddcb7dbdcf2524d26a1f0e9a98ff9b295da",
-      "start_date": "2026-04-25T06:40:00+00:00",
-      "name": "Bounty Builder $16.50 Sat: $1.10 NLHE [Hyper-Turbo,1R1A, Deep],  8 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1 + $0.10",
-      "buyin": 1,
-      "fee": 0.1,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "79e2e9f30523fbd6d9f73175ad9ed05bd778af9b",
-      "start_date": "2026-04-25T06:43:00+00:00",
-      "name": "No Limit Omaha",
-      "game": "Omaha",
-      "buyin_raw": "22000 + 3000",
-      "buyin": 22000,
-      "fee": 3000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "f2f122ab25ef61051a375b7c745618bce90b393f",
-      "start_date": "2026-04-25T06:43:00+00:00",
-      "name": "$3.30 2-7 Triple Draw, $75 Gtd",
-      "game": "2-7 Triple Draw",
-      "buyin_raw": "$2.94 + $0.36",
-      "buyin": 2.94,
-      "fee": 0.36,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "4824f0b11c1bb7d5cfffbc0cb2de2e2513df1cf1",
-      "start_date": "2026-04-25T06:44:00+00:00",
-      "name": "Mystery Bounty Series 07 Sunday Storm Sat: $0.33 NLHE [Turbo, Deep],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$0.29 + $0.04",
-      "buyin": 0.29,
-      "fee": 0.04,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "29d2a369372585517e8857fda012d02689a3f666",
-      "start_date": "2026-04-25T06:45:00+00:00",
-      "name": "Limit Five Card Draw",
-      "game": "5 Card Draw",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "741da5d6594ddbb828e750583ec97261a7e70e8f",
-      "start_date": "2026-04-25T06:45:00+00:00",
-      "name": "Fast 6 Last Chance Sat: $4.40 NLHE [Hyper-Turbo],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$4.03 + $0.37",
-      "buyin": 4.03,
-      "fee": 0.37,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "1e9599fc828fec7d07d7f69327eb935bff5cdfab",
-      "start_date": "2026-04-25T06:45:00+00:00",
-      "name": "$2.20 NLHE [Deep Stacks], $300 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$1.96 + $0.24",
-      "buyin": 1.96,
-      "fee": 0.24,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "ddd3a56f95444819fbe908fb5381e1b49b82627d",
-      "start_date": "2026-04-25T06:45:00+00:00",
-      "name": "Bounty Adrenaline $11 (Short: 20BB),  $750 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$10.27 + $0.73",
-      "buyin": 10.27,
-      "fee": 0.73,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "ee9f8ed160003875731c5550b93dea36acbd9801",
-      "start_date": "2026-04-25T06:47:00+00:00",
-      "name": "No Limit Omaha Hi/Lo",
-      "game": "Omaha",
-      "buyin_raw": "220000 + 30000",
-      "buyin": 220000,
-      "fee": 30000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "14cb3c912160c7cdcc66a47b8d3439d8f6477296",
-      "start_date": "2026-04-25T07:00:00+00:00",
-      "name": "Rounder $1.10, $100 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$0.98 + $0.12",
-      "buyin": 0.98,
-      "fee": 0.12,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "a4797e0ef2d66c37e0a3c130d562bcd241d36a9e",
-      "start_date": "2026-04-25T07:00:00+00:00",
-      "name": "Big $5.50,  $750 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$4.90 + $0.60",
-      "buyin": 4.9,
-      "fee": 0.6,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "63812e646a5ca09cd2ee222145e67edf104685e2",
-      "start_date": "2026-04-25T07:00:00+00:00",
-      "name": "Big $27,  $1K Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$24.55 + $2.45",
-      "buyin": 24.55,
-      "fee": 2.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "e2d91c3b58cba51280965e27457422d9aa021c7a",
-      "start_date": "2026-04-25T07:01:00+00:00",
-      "name": "Bankroll Builder",
-      "game": "Hold'em",
-      "buyin_raw": "13200 + 1800",
-      "buyin": 13200,
-      "fee": 1800,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "9b9e8c3b840fec68cb865faa20dbed1f87e31907",
-      "start_date": "2026-04-25T07:01:00+00:00",
-      "name": "Mystery Express Sat: $5.50 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "e233f2a87527a05b434f103eaa5e6fc845c5cb2f",
-      "start_date": "2026-04-25T07:04:00+00:00",
-      "name": "6+ Hold'em",
-      "game": "",
-      "buyin_raw": "880000 + 120000",
-      "buyin": 880000,
-      "fee": 120000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "486b37845af93788b1b016b656f5fae1488a1d82",
-      "start_date": "2026-04-25T07:05:00+00:00",
-      "name": "Bounty Builder High Roller 50M [6-Max, Progressive KO],  1B Chips Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "44000000 + 6000000",
-      "buyin": 44000000,
-      "fee": 6000000,
-      "currency": null,
-      "lobby_types": [
-        "EE",
-        "DK",
-        "FR",
-        "NET",
-        "ES",
-        "BE",
-        "COM",
-        "EU"
-      ]
-    },
-    {
-      "id": "43543e071ed964a3535080dd02e5cc809ba07dd8",
-      "start_date": "2026-04-25T07:05:00+00:00",
-      "name": "Mini Daily Kickoff Deadline Sat: $1.10 NLHE [Turbo],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$0.98 + $0.12",
-      "buyin": 0.98,
-      "fee": 0.12,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "99514dd77552d36d295def02d538e31ae260692f",
-      "start_date": "2026-04-25T07:05:00+00:00",
-      "name": "Mystery Bounty Series 05: Sunday Special Sat: $5.50 NLHE [Hyper-Turbo,1R1A, Deep],  2 Seats Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$5.05 + $0.45",
-      "buyin": 5.05,
-      "fee": 0.45,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "e50951f6f88487281df554af26cdbe90c83bde2b",
-      "start_date": "2026-04-25T07:05:00+00:00",
-      "name": "Hot Omania $7.50 [6-max, Turbo],  $250 Gtd",
-      "game": "Omaha",
-      "buyin_raw": "$6.69 + $0.81",
-      "buyin": 6.69,
-      "fee": 0.81,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "d5353a7aefa22100ed9184770614b5e8b5bb4056",
-      "start_date": "2026-04-25T07:05:00+00:00",
-      "name": "$7.50 NLHE [6-Max, Hyper-Turbo], $400 Gtd",
-      "game": "Hold'em",
-      "buyin_raw": "$6.95 + $0.55",
-      "buyin": 6.95,
-      "fee": 0.55,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
-    {
-      "id": "cb304e1f24c7104b669326100df41ad9600c5f19",
-      "start_date": "2026-04-25T07:10:00+00:00",
-      "name": "$0.55 Women's NLHE [Re-Entry]",
-      "game": "Hold'em",
-      "buyin_raw": "$0.49 + $0.06",
-      "buyin": 0.49,
-      "fee": 0.06,
-      "currency": "USD",
-      "lobby_types": [
-        "EE",
-        "DK",
-        "EU",
-        "BE",
-        "COM"
-      ]
-    },
     {
       "id": "99d789a322d1f5566588e343467500ccbec4b53c",
       "start_date": "2026-04-25T07:13:00+00:00",
@@ -921,6 +112,23 @@
       ]
     },
     {
+      "id": "72a06b89c7198162c1645d4df0fe01612ab220b0",
+      "start_date": "2026-04-25T07:15:00+00:00",
+      "name": "Hot Omania $7.50 [6-max, Turbo],  $250 Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$6.69 + $0.81",
+      "buyin": 6.69,
+      "fee": 0.81,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
       "id": "77a1f98804c3666dbe101bb585e7efe60c0dff01",
       "start_date": "2026-04-25T07:17:00+00:00",
       "name": "No Limit Omaha Hi/Lo",
@@ -985,6 +193,23 @@
       "buyin_raw": "$0.98 + $0.12",
       "buyin": 0.98,
       "fee": 0.12,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "040ec232480c11e1047343dc9d55a1a2661ea721",
+      "start_date": "2026-04-25T07:20:00+00:00",
+      "name": "Big $27,  $1K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$24.55 + $2.45",
+      "buyin": 24.55,
+      "fee": 2.45,
       "currency": "USD",
       "lobby_types": [
         "EE",
@@ -1085,6 +310,22 @@
         "DK",
         "EU",
         "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "86f4cbbe66e73beba463cec202c1f6919a3498e9",
+      "start_date": "2026-04-25T07:26:00+00:00",
+      "name": "Bounty Builder HR Sat: $0.11 NLHE [Hyper-Turbo, Freebuy],  10 Seats Gtd to $5.50 Sat",
+      "game": "Hold'em",
+      "buyin_raw": "$0 + $0",
+      "buyin": 0,
+      "fee": 0,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
         "COM"
       ]
     },
@@ -1251,6 +492,22 @@
       ]
     },
     {
+      "id": "2530cd20714ff1439fe0b1fcfc2973c49eb51860",
+      "start_date": "2026-04-25T07:34:00+00:00",
+      "name": "StacKOsaurus Sat: $0.05 NLHE [Hyper-Turbo, Hyper-Freebuy],  10 Seats Gtd to $3.30 Sat",
+      "game": "Hold'em",
+      "buyin_raw": "$0 + $0",
+      "buyin": 0,
+      "fee": 0,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "COM"
+      ]
+    },
+    {
       "id": "2adc6cb640ba596bab439417d17fe81f7535573c",
       "start_date": "2026-04-25T07:35:00+00:00",
       "name": "Pot Limit 5 Card Omaha",
@@ -1318,6 +575,22 @@
         "DK",
         "EU",
         "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "9f52ac10cce62e80aeb66240bdba8a9b6f1dc06f",
+      "start_date": "2026-04-25T07:37:00+00:00",
+      "name": "Bounty Builder HR Sat: $0.11 NLHE [Hyper-Turbo, Hyper-Freebuy],  20 Seats Gtd to $3.30 Sat",
+      "game": "Hold'em",
+      "buyin_raw": "$0 + $0",
+      "buyin": 0,
+      "fee": 0,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
         "COM"
       ]
     },
@@ -2984,6 +2257,26 @@
       ]
     },
     {
+      "id": "3dc4c770021aea388cbacf477f15f04754c98f6b",
+      "start_date": "2026-04-25T09:17:00+00:00",
+      "name": "No Limit Omaha Hi/Lo",
+      "game": "Omaha",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
       "id": "b9b3775474ba67d89ba17df2faa233cc28824380",
       "start_date": "2026-04-25T09:17:00+00:00",
       "name": "$22 NLHE [Heads-Up, Turbo, Zoom, Progressive Total KO], $2K Gtd",
@@ -2998,6 +2291,26 @@
         "EU",
         "BE",
         "COM"
+      ]
+    },
+    {
+      "id": "00ea5cac6be066ee37446668f1425f79df2f0b2d",
+      "start_date": "2026-04-25T09:18:00+00:00",
+      "name": "HORSE",
+      "game": "HORSE",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
       ]
     },
     {
@@ -3052,6 +2365,26 @@
       ]
     },
     {
+      "id": "1ad25796ad8fe0c6ceea20c8eef8e71382055fa5",
+      "start_date": "2026-04-25T09:21:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
       "id": "ce3307c8ad73d34920f597a1de12b4f8b2feb762",
       "start_date": "2026-04-25T09:25:00+00:00",
       "name": "Hot 1M,  60M Chips Gtd",
@@ -3086,6 +2419,26 @@
         "EU",
         "BE",
         "COM"
+      ]
+    },
+    {
+      "id": "098b471c7713ee4b398a6d5b3a1669fc0566338a",
+      "start_date": "2026-04-25T09:26:00+00:00",
+      "name": "Pot Limit Courchevel",
+      "game": "Courchevel",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
       ]
     },
     {
@@ -3160,6 +2513,26 @@
       ]
     },
     {
+      "id": "0eb3f10750075c58b273cddb42f3e754116b794d",
+      "start_date": "2026-04-25T09:31:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "44000 + 6000",
+      "buyin": 44000,
+      "fee": 6000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
       "id": "37bc31b74d06fe66a572965d6b83a0209c7ac142",
       "start_date": "2026-04-25T09:31:00+00:00",
       "name": "Big $7.50 Sat: $0.55 NLHE [Turbo, Deep],  3 Seats Gtd",
@@ -3228,6 +2601,26 @@
       ]
     },
     {
+      "id": "de3e44b6244626cddb80f64b3db7014345698a77",
+      "start_date": "2026-04-25T09:34:00+00:00",
+      "name": "Pot Limit Omaha",
+      "game": "Omaha",
+      "buyin_raw": "880000 + 120000",
+      "buyin": 880000,
+      "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
       "id": "30a292c8d517b01daf8ffae257fef09c602d3772",
       "start_date": "2026-04-25T09:34:00+00:00",
       "name": "Eliminator HR Deadline Sat: $11 NLHE [Turbo],  3 Seats Gtd",
@@ -3242,6 +2635,26 @@
         "EU",
         "BE",
         "COM"
+      ]
+    },
+    {
+      "id": "232ccab237e61ffdffca85459ea9b242a3b11ba2",
+      "start_date": "2026-04-25T09:35:00+00:00",
+      "name": "Pot Limit 5 Card Omaha",
+      "game": "5 Card Omaha",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
       ]
     },
     {
@@ -3452,6 +2865,26 @@
       ]
     },
     {
+      "id": "972346df6a2de3d2f2fc8938c991c9525a814149",
+      "start_date": "2026-04-25T09:43:00+00:00",
+      "name": "No Limit Omaha",
+      "game": "Omaha",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
       "id": "0a6ce88ad71efaa756a1580baa7ed755fbde2bf5",
       "start_date": "2026-04-25T09:43:00+00:00",
       "name": "Blazing Giant Last Chance Sat: $4.40 NLHE [Hyper-Turbo],  5 Seats Gtd",
@@ -3500,6 +2933,26 @@
         "EU",
         "BE",
         "COM"
+      ]
+    },
+    {
+      "id": "096f7f6ae8c2dc8f8b66e40b0d74620a4db0672b",
+      "start_date": "2026-04-25T09:45:00+00:00",
+      "name": "NL Five Card Draw",
+      "game": "5 Card Draw",
+      "buyin_raw": "880000 + 120000",
+      "buyin": 880000,
+      "fee": 120000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
       ]
     },
     {
@@ -3561,6 +3014,554 @@
       "buyin_raw": "$4.03 + $0.37",
       "buyin": 4.03,
       "fee": 0.37,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "10607076e26c6cf4b298fb051f4c1d14ad3bb02c",
+      "start_date": "2026-04-25T09:47:00+00:00",
+      "name": "No Limit Omaha Hi/Lo",
+      "game": "Omaha",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "a57fa85291296026080a26c241cc8cb9f0ba08e7",
+      "start_date": "2026-04-25T09:49:00+00:00",
+      "name": "Pot Limit Badugi",
+      "game": "Badugi",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "5e28a50833a28ad78d2d5ee2a3d6b426de43483a",
+      "start_date": "2026-04-25T10:00:00+00:00",
+      "name": "$7.50 NLHE [8-Max, Deep Stacks], $500 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$6.69 + $0.81",
+      "buyin": 6.69,
+      "fee": 0.81,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "405c82c9ed82c963e41a7ea907c7e448fffcb1e6",
+      "start_date": "2026-04-25T10:00:00+00:00",
+      "name": "Big $2.20,  $500 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1.96 + $0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "ed2d5ef04a8bc34b08c47e3df95ff544b8f0e016",
+      "start_date": "2026-04-25T10:01:00+00:00",
+      "name": "Bankroll Builder",
+      "game": "Hold'em",
+      "buyin_raw": "13200 + 1800",
+      "buyin": 13200,
+      "fee": 1800,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "f617446c843973d5fc8c4627be47878300e8a28f",
+      "start_date": "2026-04-25T10:01:00+00:00",
+      "name": "Saturday Chameleon Sat: $2.20 NLHE [Turbo, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1.96 + $0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "128b2d38f947927a9905d8de87d9adfd9b23bdb0",
+      "start_date": "2026-04-25T10:01:00+00:00",
+      "name": "Bounty Builder HR Sat: $5.50 NLHE [Hyper-Turbo, Deep],  5 Seats Gtd to $55 Deadline Sat",
+      "game": "Hold'em",
+      "buyin_raw": "$5.05 + $0.45",
+      "buyin": 5.05,
+      "fee": 0.45,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "a4ee778433eb7521682f7e383f9d41485327a238",
+      "start_date": "2026-04-25T10:02:00+00:00",
+      "name": "2-7 Single Draw",
+      "game": "2-7 Single Draw",
+      "buyin_raw": "220000 + 30000",
+      "buyin": 220000,
+      "fee": 30000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "8f229f4cf10b3e11b0496b6b2276910f9a0d2f75",
+      "start_date": "2026-04-25T10:02:00+00:00",
+      "name": "$33 Blazing Giant [Deepstack, Turbo, Mystery Bounty],  $12K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$30 + $3",
+      "buyin": 30,
+      "fee": 3,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "497997c154f8ab6c60837aef2ed5206e4f07a453",
+      "start_date": "2026-04-25T10:02:00+00:00",
+      "name": "Mystery Bounty $4.40,  $6K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$3.92 + $0.48",
+      "buyin": 3.92,
+      "fee": 0.48,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "ec789b03f2ec40466289f0c69c34248002421882",
+      "start_date": "2026-04-25T10:02:00+00:00",
+      "name": "Bounty Builder HR Mega Sat: $33 NLHE,  4 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$30 + $3",
+      "buyin": 30,
+      "fee": 3,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "a0aa57f6b1ed3be9a9eafd3dca8c489af2d88a90",
+      "start_date": "2026-04-25T10:02:00+00:00",
+      "name": "Hot $11 Sat: $2.20 NLHE [Hyper-Turbo],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "419e9aa70d1512c86e0bfa0ecad1306cf691a3b8",
+      "start_date": "2026-04-25T10:04:00+00:00",
+      "name": "Pot Limit Omaha",
+      "game": "Omaha",
+      "buyin_raw": "22000 + 3000",
+      "buyin": 22000,
+      "fee": 3000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "b2ebe87ff5760925b3c30ad3308e0b8b7e173b8d",
+      "start_date": "2026-04-25T10:04:00+00:00",
+      "name": "Blazing Giant Sat: $2.20 NLHE [Hyper-Turbo,1R1A, Deep],  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$1.96 + $0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "10ddbab1a13a802fa82b93654df3a762bc58069b",
+      "start_date": "2026-04-25T10:04:00+00:00",
+      "name": "KOmania $33 Sat: $3.30 PLO [6-Max, Turbo, Deep],  2 Seats Gtd",
+      "game": "Omaha",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "818fd37f5c634a9781d9aac58542a8ffdd4ef402",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "Wizard 5M [Mystery Bounty],  800M Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "4400000 + 600000",
+      "buyin": 4400000,
+      "fee": 600000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "736e080ab3412d7937d3e125adc4a22c7d663a84",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "Power Path Step 2: $1.50 NLHE [Hyper-Turbo],  40 Seats Gtd to $11 Step 3",
+      "game": "Hold'em",
+      "buyin_raw": "$1.40 + $0.10",
+      "buyin": 1.4,
+      "fee": 0.1,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "11a9d6756d157933eab0d133ddbf00ed0b91ec73",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "PokerStars Open Monte-Carlo Main Event Sat: €2.20 NLHE [Hyper-Turbo, Deep],  3 Seats Gtd to €16.50 Sat",
+      "game": "Hold'em",
+      "buyin_raw": "€1.96 + €0.24",
+      "buyin": 1.96,
+      "fee": 0.24,
+      "currency": "EUR",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "fed215f0bde5cd7210fe516406ad889e5fefab15",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "Mystery Bounty Series 05: Sunday Special Sat: $5.50 NLHE [Hyper-Turbo,1R1A, Deep],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$5.05 + $0.45",
+      "buyin": 5.05,
+      "fee": 0.45,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "50b50aa5b12a7171d48fed05b6e71fa5c26ece7c",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "StackOmania $11 PLO [Weekend Special,7-Max],  $750 Gtd | New Tournament!",
+      "game": "Omaha",
+      "buyin_raw": "$9.80 + $1.20",
+      "buyin": 9.8,
+      "fee": 1.2,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "d0e15833a2b2449293202f6e8e01b4dcbbc52ee7",
+      "start_date": "2026-04-25T10:05:00+00:00",
+      "name": "$2.20 NLHE [6-Max, Hyper-Turbo], $150 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.01 + $0.19",
+      "buyin": 2.01,
+      "fee": 0.19,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "f5a72cac8432959310c6ffd7292c32e5df4c482d",
+      "start_date": "2026-04-25T10:08:00+00:00",
+      "name": "$3.30 NLO8 [6-Max, Turbo], $100 Gtd | New Buy-In!",
+      "game": "Omaha",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "7a8f8e4e89c9051099f0a77ad474cf09462a0d13",
+      "start_date": "2026-04-25T10:09:00+00:00",
+      "name": "Saturday KOmania Deadline Sat: $4.40 5-Card PLO [6-Max, Turbo],   2 Seat Gtd",
+      "game": "5 Card Omaha",
+      "buyin_raw": "$3.92 + $0.48",
+      "buyin": 3.92,
+      "fee": 0.48,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "c061e2b53eea388623e1e1f158d828be9c18e583",
+      "start_date": "2026-04-25T10:10:00+00:00",
+      "name": "$5.50 NLHE [Progressive KO], $500 Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$4.90 + $0.60",
+      "buyin": 4.9,
+      "fee": 0.6,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "18481009e8b63d1c2b90a48e2c318de331de41fd",
+      "start_date": "2026-04-25T10:13:00+00:00",
+      "name": "Mini Bounty Builder HR $55 Mega Sat: $3.30 NLHE,  10 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "b1860f4e8f847019c0321f144a7d983e4594db3a",
+      "start_date": "2026-04-25T10:13:00+00:00",
+      "name": "Mystery Bounty Series 07 Sunday Storm Sat: $1.10 NLHE,  2 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$0.98 + $0.12",
+      "buyin": 0.98,
+      "fee": 0.12,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "d9e99bbbff0568ddeae710e628b28013b0da8e01",
+      "start_date": "2026-04-25T10:13:00+00:00",
+      "name": "$11 8-Game, $300 Gtd",
+      "game": "8-Game",
+      "buyin_raw": "$9.80 + $1.20",
+      "buyin": 9.8,
+      "fee": 1.2,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "b9a57540b3c15173651cc7a1ec4640fa09460cee",
+      "start_date": "2026-04-25T10:14:00+00:00",
+      "name": "Hot Hyper $16.50 Sat: $3.30 NLHE [Hyper-Turbo],  3 Seats Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$3.02 + $0.28",
+      "buyin": 3.02,
+      "fee": 0.28,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "b8483a9a4b06dd60f69ad38522192e3ff0614e6b",
+      "start_date": "2026-04-25T10:15:00+00:00",
+      "name": "Bounty Builder 25M [Progressive KO],  2.5B Chips Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "22000000 + 3000000",
+      "buyin": 22000000,
+      "fee": 3000000,
+      "currency": null,
+      "lobby_types": [
+        "EE",
+        "DK",
+        "FR",
+        "NET",
+        "ES",
+        "BE",
+        "COM",
+        "EU"
+      ]
+    },
+    {
+      "id": "1f6e9cce30e9bc309d25fa2772d0edf21b685d2f",
+      "start_date": "2026-04-25T10:15:00+00:00",
+      "name": "$3.30 Mini Shuffle [Heads-Up, Turbo, Zoom, Progressive Total KO],  $1K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$2.94 + $0.36",
+      "buyin": 2.94,
+      "fee": 0.36,
+      "currency": "USD",
+      "lobby_types": [
+        "EE",
+        "DK",
+        "EU",
+        "BE",
+        "COM"
+      ]
+    },
+    {
+      "id": "16590b31d71707d174e18f14c38327cf8de6f829",
+      "start_date": "2026-04-25T10:15:00+00:00",
+      "name": "$33 Shuffle [Heads-Up, Turbo, Zoom, Progressive Total KO],  $2K Gtd",
+      "game": "Hold'em",
+      "buyin_raw": "$30 + $3",
+      "buyin": 30,
+      "fee": 3,
       "currency": "USD",
       "lobby_types": [
         "EE",
